@@ -1,3 +1,4 @@
+# https://cf.buliang0.cf/clash-rules/nodnsleak.ini
 [custom]<br>
 ;解決DNS洩露，無分流群組<br>
 ruleset=🚀 節點選擇,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com<br>
