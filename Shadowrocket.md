@@ -1,3 +1,4 @@
+# https://cf.buliang0.cf/shadowrocket-rules/nodnsleak-pk.ini
 # Shadowrocket配置文件，解決DNS洩漏
 [General]<br>
 bypass-system = true<br>
