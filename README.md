@@ -1,4 +1,5 @@
 [custom]
+
 ;解決DNS洩露，無分流群組
 ruleset=🚀 節點選擇,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 節點選擇,[]DOMAIN-SUFFIX,services.googleapis.cn
