@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,745vb.top
 DOMAIN-SUFFIX,yyyrkjgs.com
 DOMAIN-SUFFIX,sooyooj.com
 DOMAIN-SUFFIX,awaliwa.com
+DOMAIN,ipv6.music.163.com
 
 DOMAIN,www.googletagservices.com
 DOMAIN,www-googletagmanager.l.google.com
