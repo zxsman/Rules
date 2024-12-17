@@ -7,9 +7,9 @@ IP-CIDR,47.74.0.0/15,no-resolve
 IP-CIDR,47.76.0.0/14,no-resolve
 IP-CIDR,47.80.0.0/13,no-resolve
 
-DOMAIN-KEYWORD,300hu.com
-DOMAIN-KEYWORD,jdcloud-oss.com
-DOMAIN-KEYWORD,jddebug.com
+DOMAIN-KEYWORD,300hu
+DOMAIN-KEYWORD,jdcloud-oss
+DOMAIN-KEYWORD,jddebug
 DOMAIN,ipv6.music.163.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-KEYWORD,goofish.com
