@@ -1,5 +1,8 @@
 IP-CIDR,101.32.0.0/16,no-resolve
+IP-CIDR,101.32.118.25/32,no-resolve
 IP-CIDR,43.160.144.0/24,no-resolve
+IP-CIDR,43.160.144.24/32,no-resolve
+IP-CIDR,43.160.144.10/32,no-resolve
 
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-KEYWORD,goofish.com
