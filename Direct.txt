@@ -1,6 +1,7 @@
 IP-CIDR,101.32.0.0/16,no-resolve
 IP-CIDR,43.160.144.0/24,no-resolve
 
+DOMAIN-KEYWORD,taobao.com
 DOMAIN-KEYWORD,goofish.com
 DOMAIN-KEYWORD,zte.home
 DOMAIN-SUFFIX,netease.im
@@ -14,6 +15,7 @@ DOMAIN-KEYWORD,cmpassport.com
 DOMAIN-KEYWORD,163.com
 DOMAIN-KEYWORD,leshuazf.com
 DOMAIN-KEYWORD,lejuliang.com
+DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-KEYWORD,alibabachengdun.net
 DOMAIN-KEYWORD,pinduoduo.net
