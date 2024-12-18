@@ -48,8 +48,8 @@ DOMAIN,sns-avatar-qc.xhscdn.com
 DOMAIN-KEYWORD,xiaohongshu.com
 DOMAIN-KEYWORD,kuaicha888.com
 DOMAIN-KEYWORD,weixinbridge.com
-DOMAIN-KEYWORD,pinduoduo.net
-DOMAIN-KEYWORD,pddpic.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,pddpic.com
 DOMAIN-KEYWORD,amemv.com
 DOMAIN-SUFFIX,iuctrip.com
 DOMAIN-KEYWORD,hellobike.com
