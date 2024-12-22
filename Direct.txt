@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,jdcloud-oss
 DOMAIN-KEYWORD,jddebug
 DOMAIN,ipv6.music.163.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-KEYWORD,goofish.com
 DOMAIN-KEYWORD,zte.home
 DOMAIN-SUFFIX,netease.im
