@@ -107,4 +107,4 @@ DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,nasdiyer.com
-DOMAIN,h4.106804.xyz
+DOMAIN-SUFFIX,106804.xyz
