@@ -25,3 +25,6 @@ DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,binance.cloud
+
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,epicgames.com
