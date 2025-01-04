@@ -115,7 +115,4 @@ DOMAIN-SUFFIX,sixyik.com
 
 DOMAIN-SUFFIX,xvideos-cdn.com
 
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-
 DOMAIN-SUFFIX,odycdn.com
