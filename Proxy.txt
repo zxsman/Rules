@@ -28,4 +28,5 @@ DOMAIN-SUFFIX,binance.cloud
 
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgamescdn.com
 DOMAIN-SUFFIX,file.myqcloud.com
