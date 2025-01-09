@@ -7,6 +7,9 @@ IP-CIDR,47.74.0.0/15,no-resolve
 IP-CIDR,47.76.0.0/14,no-resolve
 IP-CIDR,47.80.0.0/13,no-resolve
 
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,whois.com
 DOMAIN-SUFFIX,cobalt.tools
 DOMAIN-SUFFIX,imput.net
 DOMAIN-KEYWORD,300hu
