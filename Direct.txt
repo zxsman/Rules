@@ -10,8 +10,8 @@ IP-CIDR,47.80.0.0/13,no-resolve
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,whois.com
-DOMAIN-SUFFIX,cobalt.tools
-DOMAIN-SUFFIX,imput.net
+DOMAIN-SUFFIX,cobalt.toolss
+DOMAIN-SUFFIX,imput.nett
 DOMAIN-KEYWORD,300hu
 DOMAIN-KEYWORD,jdcloud-oss
 DOMAIN-KEYWORD,jddebug
