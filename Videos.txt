@@ -2,6 +2,9 @@ DOMAIN-SUFFIX,odysee.com
 DOMAIN-SUFFIX,odysee.tv
 DOMAIN-SUFFIX,odysee.live
 
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
 
 DOMAIN-SUFFIX,nico
