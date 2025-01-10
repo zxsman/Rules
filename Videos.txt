@@ -16,3 +16,5 @@ DOMAIN-SUFFIX,imagetwist.com
 DOMAIN-SUFFIX,gifyu.com
 DOMAIN-SUFFIX,x5img.com
 DOMAIN-SUFFIX,blr844.com
+
+DOMAIN-SUFFIX,imput.net
