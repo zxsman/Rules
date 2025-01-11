@@ -2,11 +2,11 @@ DOMAIN-SUFFIX,odysee.com
 DOMAIN-SUFFIX,odysee.tv
 DOMAIN-SUFFIX,odysee.live
   
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,yyoutu.be
+DOMAIN-SUFFIX,yyoutube.com
+DOMAIN-SUFFIX,yyoutube-nocookie.com
+DOMAIN-SUFFIX,yytimg.com
+DOMAIN-SUFFIX,yyoutubei.googleapis.com
 DOMAIN-SUFFIX,jnn-pa.googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
 
