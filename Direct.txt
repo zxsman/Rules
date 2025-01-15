@@ -123,7 +123,7 @@ DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 
-DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,xvideos-cdn.comm
 
 DOMAIN-SUFFIX,odycdn.com
 
