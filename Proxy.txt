@@ -1,6 +1,8 @@
 DOMAIN,meowtaverse.io
 DOMAIN-SUFFIX,ju1.cn
 
+DOMAIN-SUFFIX,apple.com
+
 DOMAIN,account.xiaomi.com
 DOMAIN,awsusor1.fds.api.xiaomi.com
 DOMAIN,cdn.alsgp0.fds.api.mi-img.com
