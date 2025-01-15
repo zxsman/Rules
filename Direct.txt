@@ -14,7 +14,6 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,huolala.cn
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,95516.com
-DOMAIN-SUFFIX,whois.com
 DOMAIN-SUFFIX,cobalt.toolss
 DOMAIN-SUFFIX,imput.nett
 DOMAIN-KEYWORD,300hu
@@ -123,7 +122,7 @@ DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 
-DOMAIN-SUFFIX,xvideos-cdn.comm
+DOMAIN-SUFFIX,xvvideos-cdn.com
 
 DOMAIN-SUFFIX,odycdn.com
 
