@@ -1,7 +1,7 @@
 DOMAIN,meowtaverse.io
 DOMAIN-SUFFIX,ju1.cn
 
-DOMAIN-SUFFIX,apple.com
+DOMAIN-KEYWORD,apple
 
 DOMAIN,account.xiaomi.com
 DOMAIN,awsusor1.fds.api.xiaomi.com
