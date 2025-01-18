@@ -1,5 +1,7 @@
 DOMAIN,meowtaverse.io
 DOMAIN-SUFFIX,ju1.cn
+DOMAIN-SUFFIX,appsflyersdk.com
+
 
 DOMAIN-KEYWORD,apple
 
