@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,appsflyersdk.com
 
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,tiktokcdn-com
-DOMAIN-KEYWORD,apple
 
 DOMAIN,account.xiaomi.com
 DOMAIN,awsusor1.fds.api.xiaomi.com
