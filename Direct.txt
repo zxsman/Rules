@@ -9,7 +9,6 @@ IP-CIDR,47.80.0.0/13,no-resolve
 
 DOMAIN-SUFFIX,qcc.com
 DOMAIN-SUFFIX,shodan.io
-DOMAIN-SUFFIX,pipecdn.vip
 DOMAIN-SUFFIX,whois.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,huolala.cn
