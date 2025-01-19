@@ -105,7 +105,7 @@ DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adobedtm.com
 
 DOMAIN-SUFFIX,mxdm6.com
-DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,aakamaized.net
 DOMAIN-SUFFIX,lingkechaci.com
 DOMAIN-SUFFIX,kox.moe
 DOMAIN-SUFFIX,mox.moe
