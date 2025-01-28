@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,x5img.com
 DOMAIN-SUFFIX,blr844.com
 
 DOMAIN-SUFFIX,imput.net
+
+DOMAIN-SUFFIX,voachinese.com
