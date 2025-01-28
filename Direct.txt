@@ -9,6 +9,9 @@ IP-CIDR,47.80.0.0/13,no-resolve
 
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
+
+DOMAIN-SUFFIX,pipecdn.vip
+
 DOMAIN-SUFFIX,bcbits.com
 DOMAIN-SUFFIX,qcc.com
 DOMAIN-SUFFIX,shodan.io
