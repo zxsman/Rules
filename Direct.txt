@@ -106,6 +106,7 @@ DOMAIN-SUFFIX,adobess.com
 DOMAIN,crs.cr.adobe.com
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,typekit.net
 DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobelogin.com
 DOMAIN-SUFFIX,adobeccstatic.com
