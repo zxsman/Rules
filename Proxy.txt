@@ -1,7 +1,7 @@
 DOMAIN,meowtaverse.io
 DOMAIN-SUFFIX,ju1.cn
-DOMAIN-SUFFIX,appsflyersdk.com
 
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,tiktokcdn-com
 
