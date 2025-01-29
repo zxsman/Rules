@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,blr844.com
 DOMAIN-SUFFIX,imput.net
 
 DOMAIN-SUFFIX,voachinese.com
+
+DOMAIN,cdn77-vid.xvideos-cdn.com
+DOMAIN,gcore-vid.xvideos-cdn.com
