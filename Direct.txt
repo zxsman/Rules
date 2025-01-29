@@ -133,9 +133,6 @@ DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 
-DOMAIN,cdn77-vid.xvideos-cdn.com
-DOMAIN,gcore-vid.xvideos-cdn.com
-
 DOMAIN-SUFFIX,odycdn.com
 
 DOMAIN-SUFFIX,etcbbg.xyz
