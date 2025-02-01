@@ -15,6 +15,9 @@ DOMAIN-SUFFIX,mzstatic.com
 
 DOMAIN-SUFFIX,pipecdn.vip
 
+DOMAIN-SUFFIX,gidepay.com
+DOMAIN-SUFFIX,psbc.com
+
 DOMAIN-SUFFIX,bcbits.com
 DOMAIN-SUFFIX,qcc.com
 DOMAIN-SUFFIX,shodan.io
