@@ -31,6 +31,9 @@ DOMAIN-SUFFIX,iimput.net
 DOMAIN-KEYWORD,300hu
 DOMAIN-KEYWORD,jdcloud-oss
 DOMAIN-KEYWORD,jddebug
+DOMAIN-SUFFIX,jdjygold.com
+DOMAIN-SUFFIX,tjjt360.com
+
 DOMAIN,ipv6.music.163.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,servicewechat.com
