@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 
+DOMAIN-SUFFIX,epochtimes.com
+
 DOMAIN-SUFFIX,odysee.com
 DOMAIN-SUFFIX,odysee.tv
 DOMAIN-SUFFIX,odysee.live
