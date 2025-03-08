@@ -9,6 +9,7 @@ IP-CIDR,47.80.0.0/13,no-resolve
 
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
+DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,mzstatic.com
