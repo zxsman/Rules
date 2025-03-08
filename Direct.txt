@@ -136,7 +136,7 @@ DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,nasdiyer.com
 DOMAIN-SUFFIX,106804.xyz
 
-DOMAIN-SUFFIX,surrit.com
+DOMAIN-SUFFIX,ssurrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 
