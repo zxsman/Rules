@@ -9,3 +9,4 @@ DOMAIN-SUFFIX,alidns.com
 tdnsstic1.cn
 qq.com
 miaozhen.com
+doh.pub
