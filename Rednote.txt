@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,zztfly.com
 DOMAIN-SUFFIX,alidns.com
 tdnsstic1.cn
+qq.com
+miaozhen.com
