@@ -1,0 +1,5 @@
+DOMAIN-KEYWORD,xhscdn
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN,sns-avatar-qc.xhscdn.com
+DOMAIN-KEYWORD,xiaohongshu.com
