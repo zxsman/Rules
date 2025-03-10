@@ -55,6 +55,8 @@ DOMAIN-KEYWORD,leshuazf.com
 DOMAIN-KEYWORD,lejuliang.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,biliimg.com
 DOMAIN-KEYWORD,effirst.com
 DOMAIN-KEYWORD,alibabachengdun.net
 DOMAIN-KEYWORD,pinduoduo.net
