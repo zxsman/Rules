@@ -1,0 +1,9 @@
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,pcidata.cn
+DOMAIN-SUFFIX,shujupie.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tbcache.com
