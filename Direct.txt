@@ -71,12 +71,6 @@ DOMAIN-KEYWORD,qq.com
 DOMAIN-KEYWORD,alibabachengdun.com
 DOMAIN-KEYWORD,mob.com
 
-DOMAIN-KEYWORD,xhscdn
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xhscdn.net
-DOMAIN,sns-avatar-qc.xhscdn.com
-DOMAIN-KEYWORD,xiaohongshu.com
-
 DOMAIN-KEYWORD,kuaicha888.com
 DOMAIN-KEYWORD,weixinbridge.com
 DOMAIN-SUFFIX,pinduoduo.net
