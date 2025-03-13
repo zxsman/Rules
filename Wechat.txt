@@ -45,3 +45,5 @@ DOMAIN-SUFFIX,wpscdn.cn
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,mxbc.net
+DOMAIN-SUFFIX,icc.link
