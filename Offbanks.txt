@@ -33,3 +33,4 @@ DOMAIN-SUFFIX,zafinsvc.com
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zaticdn.com
 DOMAIN-SUFFIX,zhitongcaijing.com
+DOMAIN-SUFFIX,za.group
