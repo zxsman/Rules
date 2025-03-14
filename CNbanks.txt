@@ -1,1 +1,14 @@
-
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,abchina.com.cn
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,cfca.com.cn
+DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,citicbank.cn
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,cup.com.cn
+DOMAIN-SUFFIX,dcocsp.cn
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,psbc.com
+DOMAIN-SUFFIX,umva-china.com
