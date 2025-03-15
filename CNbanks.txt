@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,citicbank.com
 DOMAIN-SUFFIX,cup.com.cn
 DOMAIN-SUFFIX,dcocsp.cn
 DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,gidepay.com
 DOMAIN-SUFFIX,icbc.com.cn
 DOMAIN-SUFFIX,psbc.com
 DOMAIN-SUFFIX,umva-china.com
