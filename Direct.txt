@@ -116,7 +116,7 @@ DOMAIN-SUFFIX,106804.xyz
 #礦渣論壇
 DOMAIN-SUFFIX,nasdiyer.com
 #工兒
-DOMAIN-SUFFIX,ssurrit.com
+#DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 DOMAIN-SUFFIX,etcbbg.xyz
