@@ -29,8 +29,8 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,jnn-pa.googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
-
-DOMAIN-SUFFIX,nico
+#ニコニコ
+DOMAIN-SUFFIX,nicovideo.jp
 #Rutube
 DOMAIN-SUFFIX,rutube.ru
 #GoogleEarth
