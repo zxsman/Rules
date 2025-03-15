@@ -1,7 +1,7 @@
+#T-Mobile
 IP-CIDR,208.54.0.0/16,no-resolve
 IP-CIDR,66.94.0.0/19,no-resolve
 IP-CIDR,206.29.176.0/22,no-resolve
-
 DOMAIN-SUFFIX,t-mobile.com
 DOMAIN-SUFFIX,crl.t-mobile.com
 DOMAIN-SUFFIX,eas3.msg.t-mobile.com
@@ -12,16 +12,16 @@ DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-
+#黑名單
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,epochtimes.com
 DOMAIN-SUFFIX,rfa.org
-
+#Odysee
 DOMAIN-SUFFIX,odysee.com
 DOMAIN-SUFFIX,odysee.tv
 DOMAIN-SUFFIX,odysee.live
 DOMAIN-SUFFIX,lbry.com
-  
+#Youtube
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube-nocookie.com
@@ -31,9 +31,9 @@ DOMAIN-SUFFIX,jnn-pa.googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
 
 DOMAIN-SUFFIX,nico
-
+#Rutube
 DOMAIN-SUFFIX,rutube.ru
-
+#GoogleEarth
 DOMAIN,kh.google.com
 DOMAIN,earth.google.com
 DOMAIN,streetviewpixels-pa.googleapis.com
@@ -43,10 +43,10 @@ DOMAIN-SUFFIX,imagetwist.com
 DOMAIN-SUFFIX,gifyu.com
 DOMAIN-SUFFIX,x5img.com
 DOMAIN-SUFFIX,blr844.com
-
+#Cobalt
 DOMAIN-SUFFIX,imput.net
-
+#Xvideos
 DOMAIN,cdn77-vid.xvideos-cdn.com
 DOMAIN,gcore-vid.xvideos-cdn.com
-
+#MissAV
 DOMAIN-SUFFIX,surrit.com
