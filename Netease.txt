@@ -2,6 +2,7 @@ DOMAIN,ipv6.music.163.com
 DOMAIN-KEYWORD,music.163.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
+DOMAIN-KEYWORD,163.com
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,163jiasu.com
 DOMAIN-SUFFIX,189.cn
@@ -16,10 +17,12 @@ DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kunluncan.com
 DOMAIN-SUFFIX,laiqukankan.com
 DOMAIN-SUFFIX,netease.com
+DOMAIN-KEYWORD,netease.im
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,so666gslb.com
 DOMAIN-SUFFIX,trust-provider.cn
 DOMAIN-SUFFIX,uhabo.com
 DOMAIN-SUFFIX,volcgtm.com
+DOMAIN-KEYWORD,yunxinfw.com
 DOMAIN-SUFFIX,yunxinfw.com
 DOMAIN-SUFFIX,zhuanzfx.com
