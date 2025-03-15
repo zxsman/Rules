@@ -117,9 +117,9 @@ DOMAIN-SUFFIX,106804.xyz
 DOMAIN-SUFFIX,nasdiyer.com
 #工兒
 #DOMAIN-SUFFIX,surrit.com
-DOMAIN-SUFFIX,fivetiu.com
-DOMAIN-SUFFIX,sixyik.com
-DOMAIN-SUFFIX,etcbbg.xyz
+#DOMAIN-SUFFIX,fivetiu.com
+#DOMAIN-SUFFIX,sixyik.com
+#DOMAIN-SUFFIX,etcbbg.xyz
 #Odysee
 DOMAIN-SUFFIX,odycdn.com
 #Netease
