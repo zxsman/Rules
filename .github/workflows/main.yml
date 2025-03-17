@@ -1,0 +1,27 @@
+name: Sync Direct.txt
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download Direct.txt
+        run: |
+          curl -o ./Config/Sing_box/Rule_set/Direct.txt https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Direct.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add ./Config/Sing_box/Rule_set/Direct.txt
+          git commit -m "Update Direct.txt" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
