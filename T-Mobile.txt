@@ -15,4 +15,4 @@ DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 
-DOMAIN,mobile.launchdarkly.com
+DOMAIN-SUFFIX,launchdarkly.com
