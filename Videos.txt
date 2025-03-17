@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,launchdarkly.com
 #黑名單
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,epochtimes.com
