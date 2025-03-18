@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,play-cdn12.com
 DOMAIN-SUFFIX,play-cdn8.com
 DOMAIN-SUFFIX,cdnlz14.com
 DOMAIN-SUFFIX,azureedge.net
+#漢碼
+DOMAIN-SUFFIX,hprtdata.com
+DOMAIN-SUFFIX,hprtupgrade.com
 #Apple
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
