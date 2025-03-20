@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,iyhdmw.com
 DOMAIN-SUFFIX,ffzyread1.com
 DOMAIN-SUFFIX,ffzy-online.com
 DOMAIN-SUFFIX,ffzy-online1.com
+DOMAIN-SUFFIX,ffzy-online2.com
 DOMAIN-SUFFIX,ffzy-play2.com
 DOMAIN-SUFFIX,fsvod1.com
 DOMAIN-SUFFIX,lz-cdn6.com
