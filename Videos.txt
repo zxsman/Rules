@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,launchdarkly.com
 #IBKR
 DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
 #黑名單
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,epochtimes.com
