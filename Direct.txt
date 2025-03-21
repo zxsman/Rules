@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,play-cdn12.com
 DOMAIN-SUFFIX,play-cdn8.com
 DOMAIN-SUFFIX,cdnlz14.com
 DOMAIN-SUFFIX,azureedge.net
+DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,phncdn.com
 #漢碼
 DOMAIN-SUFFIX,hprtdata.com
