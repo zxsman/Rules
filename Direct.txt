@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,heytapmobi.com
 DOMAIN-SUFFIX,onrender.com
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,shields.io
-DOMAIN-SUFFIX,jpshuntong.net
 #網站視頻
 DOMAIN-SUFFIX,iyhdmm.com
 DOMAIN-SUFFIX,iyhdm.com
@@ -37,6 +36,9 @@ DOMAIN-SUFFIX,cdnlz14.com
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,phncdn.com
+#順通轉運
+DOMAIN-SUFFIX,jpshuntong.net
+DOMAIN-SUFFIX,jpshuntong.com
 #漢碼
 DOMAIN-SUFFIX,hprtdata.com
 DOMAIN-SUFFIX,hprtupgrade.com
