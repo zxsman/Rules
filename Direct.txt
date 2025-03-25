@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,heytapmobi.com
 DOMAIN-SUFFIX,onrender.com
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,shields.io
+DOMAIN-SUFFIX,jpshuntong.net
 #網站視頻
 DOMAIN-SUFFIX,iyhdmm.com
 DOMAIN-SUFFIX,iyhdm.com
