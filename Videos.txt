@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,rfa.org
 #DOMAIN-SUFFIX,odysee.live
 #DOMAIN-SUFFIX,lbry.com
 #Youtube
-DOMAIN-SUFFIX,youtu.be
+#DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,ytimg.com
