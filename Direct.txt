@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,azureedge.net
 DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,phncdn.com
 #鳴潮
+IP-CIDR,43.133.192.0/19,no-resolve
 DOMAIN-SUFFIX,aki-game.com
 DOMAIN-SUFFIX,aki-game.net
 DOMAIN-SUFFIX,aki-game2.net
