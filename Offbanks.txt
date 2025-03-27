@@ -34,3 +34,5 @@ DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zaticdn.com
 DOMAIN-SUFFIX,zhitongcaijing.com
 DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,dnse5.com
