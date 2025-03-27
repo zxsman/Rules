@@ -83,8 +83,6 @@ DOMAIN-KEYWORD,jdcloud-oss
 DOMAIN-KEYWORD,jddebug
 DOMAIN-SUFFIX,jdjygold.com
 DOMAIN-SUFFIX,tjjt360.com
-#騰訊數據存儲
-#DOMAIN-SUFFIX,myqcloud.com
 #中興路由器後臺
 DOMAIN-KEYWORD,zte.home
 #攔截100
