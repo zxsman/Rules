@@ -8,6 +8,7 @@ IP-CIDR,47.76.0.0/14,no-resolve
 IP-CIDR,47.80.0.0/13,no-resolve
 
 #少數網站
+DOMAIN,cn.pool.ntp.org
 DOMAIN-SUFFIX,bcbits.com
 DOMAIN-SUFFIX,shodan.io
 DOMAIN-SUFFIX,whois.com
