@@ -28,12 +28,6 @@ DOMAIN-SUFFIX,rfa.org
 #DOMAIN-SUFFIX,odysee.live
 #DOMAIN-SUFFIX,lbry.com
 #Youtube
-#DOMAIN-SUFFIX,youtu.be
-#DOMAIN-SUFFIX,youtube.com
-#DOMAIN-SUFFIX,youtube-nocookie.com
-#DOMAIN-SUFFIX,ytimg.com
-#DOMAIN-SUFFIX,youtubei.googleapis.com
-#DOMAIN-SUFFIX,jnn-pa.googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
 #ニコニコ
 DOMAIN-SUFFIX,nicovideo.jp
