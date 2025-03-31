@@ -55,6 +55,11 @@ DOMAIN-SUFFIX,nyse.com
 DOMAIN-SUFFIX,sec.gov
 DOMAIN-SUFFIX,sipc.org
 DOMAIN-SUFFIX,theocc.com
+
+DOMAIN-SUFFIX,seekingalpha.com
+DOMAIN-SUFFIX,benzinga.com
+DOMAIN-SUFFIX,barrons.com
+DOMAIN-SUFFIX,zacks.com
 #黑名單
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,epochtimes.com
