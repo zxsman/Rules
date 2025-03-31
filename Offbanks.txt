@@ -36,3 +36,5 @@ DOMAIN-SUFFIX,zhitongcaijing.com
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,airstarbank.com
 DOMAIN-SUFFIX,dnse5.com
+DOMAIN-SUFFIX,zimperium.com
+DOMAIN-SUFFIX,fundsupermart.com
