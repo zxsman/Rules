@@ -208,25 +208,23 @@ proxy-groups:
     lazy: true
     # 规则引用
 rules:
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
-  - RULE-SET,AI,AI
+  - RULE-SET,GitReject,REJECT
+  - RULE-SET,GitProxy,Final
+  - RULE-SET,GitDirect,DIRECT
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Final
+  - DOMAIN-SUFFIX,services.googleapis.cn,Final
+  - RULE-SET,GoogleCNProxyIP,Final
+  - RULE-SET,LocalAreaNetwork,DIRECT
+  - RULE-SET,UnBan,DIRECT
+  - RULE-SET,ChinaDomain,DIRECT
+  - RULE-SET,ChinaMedia,DIRECT
+  - RULE-SET,BanAD,REJECT
+  - RULE-SET,BanProgramAD,REJECT
+  - RULE-SET,ChinaCompanyIp,DIRECT
+  - RULE-SET,ChinaIp,DIRECT
+  - RULE-SET,Alipay,DIRECT
+  - RULE-SET,Rednote,DIRECT
+  - RULE-SET,Offbanks,DIRECT
   - GEOIP,LAN,DIRECT,no-resolve
   - GEOIP,CN,DIRECT,no-resolve
   - MATCH,Final
