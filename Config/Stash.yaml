@@ -216,7 +216,7 @@ proxy-groups:
     lazy: true
   - name: All
     type: select
-    hidden: true
+    hidden: false
     include-all: true
     filter: 
     interval: 300
