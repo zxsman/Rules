@@ -209,9 +209,26 @@ proxy-groups:
     # 规则引用
 rules:
   - RULE-SET,AI,AI
-
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - RULE-SET,AI,AI
+  - GEOIP,LAN,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT,no-resolve
   - MATCH,Final
 rule-providers:
   GitReject:
