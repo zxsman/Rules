@@ -11,7 +11,7 @@ proxy-providers:
     interval: 86400
     benchmark-url: http://www.gstatic.com/generate_204
     benchmark-timeout: 5
-    # 功能分组
+    # 功能分組
 proxy-groups:
   - name: Final
     type: select
@@ -28,8 +28,17 @@ proxy-groups:
       - Japan
       - Singapore
       - America
+      - All
       - AllServer
-  # 基于地区分组
+      - DIRECT
+  - name: Video
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+    proxies:
+      - 🚀節點選擇
+      - All
+      - DIRECT
+  # 基於地區分組
   - name: HongKong
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
@@ -205,10 +214,18 @@ proxy-groups:
     filter: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
     interval: 300
     lazy: true
-    # 规则引用
+  - name: All
+    type: select
+    hidden: true
+    include-all: true
+    filter: 
+    interval: 300
+    lazy: true
+    # 規則引用
 rules:
   - RULE-SET,GitReject,REJECT
   - RULE-SET,GitProxy,Final
+  - RULE-SET,Videos,Video
   - RULE-SET,GitDirect,DIRECT
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Final
   - DOMAIN-SUFFIX,services.googleapis.cn,Final
@@ -303,3 +320,8 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Offbanks.txt
+  Videos:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Videos.txt
