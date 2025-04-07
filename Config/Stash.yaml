@@ -43,7 +43,7 @@ proxy-groups:
       - Subscribe
   - name: TaiWan
     type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
     proxies:
       - TW-Auto
       - TW-FallBack
