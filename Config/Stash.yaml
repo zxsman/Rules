@@ -17,173 +17,12 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
-      - Proxy
+      - 🚀節點選擇
       - DIRECT
-  - name: Proxy
+  - name: 🚀節點選擇
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
     proxies:
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-      - DIRECT
-  - name: AI
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: YouTube
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: NETFLIX
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: Emby
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-      - DIRECT
-  - name: TikTok
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: bilibili
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
-    proxies:
-      - DIRECT
-      - HongKong
-      - TaiWan
-  - name: Spotify
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-      - DIRECT
-  - name: NetEaseMusic
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
-    proxies:
-      - DIRECT
-  - name: Streaming
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Streaming.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: Telegram
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: X
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: Apple
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
-    proxies:
-      - DIRECT
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: Google
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-    proxies:
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-      - DIRECT
-  - name: Microsoft
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Windows_11.png
-    proxies:
-      - DIRECT
-      - Proxy
-      - HongKong
-      - TaiWan
-      - Japan
-      - Singapore
-      - America
-      - AllServer
-  - name: Games
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
-    proxies:
-      - Proxy
       - HongKong
       - TaiWan
       - Japan
@@ -209,7 +48,7 @@ proxy-groups:
       - TW-Auto
       - TW-FallBack
       - TW-LoadBalance
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    filter: 台|🇹🇼|湾|TW|(?i)Taiwan
     use:
       - Subscribe
   - name: Japan
@@ -261,7 +100,7 @@ proxy-groups:
     type: url-test
     hidden: true
     include-all: true
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    filter: 台|🇹🇼|湾|TW|(?i)Taiwan
     interval: 300
     lazy: true
   - name: JP-Auto
@@ -296,7 +135,7 @@ proxy-groups:
     type: fallback
     hidden: true
     include-all: true
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    filter: 台|🇹🇼|湾|TW|(?i)Taiwan
     interval: 300
     lazy: true
   - name: JP-FallBack
@@ -332,7 +171,7 @@ proxy-groups:
     type: load-balance
     hidden: true
     include-all: true
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    filter: 台|🇹🇼|湾|TW|(?i)Taiwan
     strategy: consistent-hashing
     interval: 300
     lazy: true
@@ -382,9 +221,9 @@ rules:
   - RULE-SET,ProxyMedia,Streaming
   - RULE-SET,WeChat,DIRECT
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,GitHub,Proxy
+  - RULE-SET,GitHub,
   - RULE-SET,Twitter,X
-  - RULE-SET,AppleProxyService,America
+  - RULE-SET,AppleService,America
   - RULE-SET,Apple,Apple
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
