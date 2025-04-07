@@ -248,80 +248,80 @@ rule-providers:
   GitReject:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Reject.txt
   GitProxy:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Proxy.txt
   GitDirect:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Direct.txt
   GoogleCNProxyIP:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
   LocalAreaNetwork:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
   UnBan:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
   ChinaDomain:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
   ChinaMedia:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
   BanAD:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
   BanProgramAD:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
   ChinaCompanyIp:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
   ChinaIp:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
   Alipay:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Alipay.txt
   Rednote:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Rednote.txt
   Offbanks:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Offbanks.txt
   Videos:
     behavior: classical
     format: text
-    interval: 86400
+    interval: 600
     url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Videos.txt
