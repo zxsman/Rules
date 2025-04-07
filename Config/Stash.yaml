@@ -29,7 +29,6 @@ proxy-groups:
       - Singapore
       - America
       - AllServer
-      - DIRECT
   # 基于地区分组
   - name: HongKong
     type: select
