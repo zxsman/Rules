@@ -96,6 +96,10 @@ DOMAIN-KEYWORD,jdcloud-oss
 DOMAIN-KEYWORD,jddebug
 DOMAIN-SUFFIX,jdjygold.com
 DOMAIN-SUFFIX,tjjt360.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,qianxun.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,yipeng888.com
 #中興路由器後臺
 DOMAIN-KEYWORD,zte.home
 #攔截100
