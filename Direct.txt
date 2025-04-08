@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,heytapmobi.com
 DOMAIN-SUFFIX,onrender.com
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,shields.io
+DOMAIN-SUFFIX,sf-express.com
 #網站視頻
 DOMAIN-SUFFIX,iyhdmm.com
 DOMAIN-SUFFIX,iyhdm.com
@@ -122,6 +123,11 @@ DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobelogin.com
 DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adobedtm.com
+#淘寶
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alibabadns.com
+DOMAIN-SUFFIX,cdngslb.com
+DOMAIN-SUFFIX,kunlunhuf.com
 #閑魚
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,dingtalk.com
