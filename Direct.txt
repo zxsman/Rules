@@ -245,6 +245,17 @@ DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,wosaimg.com
 DOMAIN-SUFFIX,wscdns.com
 DOMAIN-SUFFIX,wscvip.cn
+DOMAIN-SUFFIX,shifen.com
+DOMAIN-SUFFIX,cloudcsp.com
+DOMAIN-SUFFIX,dcloudstc.com
+DOMAIN-SUFFIX,fliggy.com
+DOMAIN-SUFFIX,tbcache.com
+DOMAIN-SUFFIX,cdnhwckfz116.com
+DOMAIN-SUFFIX,id6.me
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,queniuak.com
+DOMAIN-SUFFIX,cloudcsp.com
+DOMAIN-SUFFIX,21cn.com
 #愛回收
 DOMAIN-SUFFIX,aihuishou.com
 DOMAIN-SUFFIX,aliyuncs.com
