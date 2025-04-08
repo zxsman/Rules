@@ -122,6 +122,11 @@ DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobelogin.com
 DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adobedtm.com
+#閑魚
+DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,youku.com
 #漫畫
 DOMAIN-SUFFIX,mxdm6.com
 #DOMAIN-SUFFIX,akamaized.net
