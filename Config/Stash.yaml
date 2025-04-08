@@ -215,9 +215,9 @@ proxy-groups:
     interval: 300
     lazy: true
   - name: All
-    type: select
+    type: url-test
     hidden: false
-    include-all: true
+    include-all: false
     filter: 
     interval: 300
     lazy: true
