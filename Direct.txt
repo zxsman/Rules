@@ -109,6 +109,8 @@ DOMAIN-KEYWORD,pinduoduo
 DOMAIN-SUFFIX,pinduoduo.net
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddugc.com
 #劃詞翻譯
 DOMAIN-SUFFIX,hcfy.app
 DOMAIN-SUFFIX,hcfy.ai
