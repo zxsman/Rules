@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,cdnlz14.com
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,hembed.com
 #鳴潮
 IP-CIDR,43.133.192.0/19,no-resolve
 IP-CIDR,43.133.160.0/19,no-resolve
