@@ -277,6 +277,7 @@ IP-CIDR,139.9.0.0/16,no-resolve
 IP-CIDR,101.32.0.0/16,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,43.160.144.0/24,no-resolve
+IP-CIDR,43.156.0.0/16,no-resolve
 IP-CIDR,47.74.0.0/15,no-resolve
 IP-CIDR,47.76.0.0/14,no-resolve
 IP-CIDR,47.80.0.0/13,no-resolve
@@ -300,6 +301,8 @@ DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,ksord.com
 DOMAIN-SUFFIX,ksosoft.com
 DOMAIN-SUFFIX,ksyun.com
+DOMAIN-SUFFIX,luckincoffeecdn.com
+DOMAIN-SUFFIX,lkcoffee.com
 DOMAIN-SUFFIX,mxbc.net
 DOMAIN-SUFFIX,my-imcloud.com
 DOMAIN-SUFFIX,myqcloud.com
