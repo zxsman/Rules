@@ -271,7 +271,7 @@ DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,aihuishou.com
 DOMAIN-SUFFIX,aliyuncs.com
 #慢慢買
-IP-CIDR,124.70.0.0/16,no-resolve
+IP-CIDR,124.70.0.0/23,no-resolve
 IP-CIDR,139.9.0.0/16,no-resolve
 #Wechat
 IP-CIDR,101.32.0.0/16,no-resolve
