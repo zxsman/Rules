@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [
+        "aliapp.org",
+        "alicdn.com",
+        "alipay.com",
+        "alipay.com.cn",
+        "alipayobjects.com",
+        "pcidata.cn",
+        "shujupie.com",
+        "taobao.com",
+        "tbcache.com"
+      ]
+    }
+  ]
+}

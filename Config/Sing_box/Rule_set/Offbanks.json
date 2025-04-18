@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [
+        "airstarbank.com",
+        "alibaba.com",
+        "alibabachengdun.com",
+        "alipay.com",
+        "alipay.hk",
+        "alipayobjects.com",
+        "aliyuncs.com",
+        "bochk.com",
+        "cdngslb.com",
+        "cls.cn",
+        "cmbwinglungbank.com",
+        "cncbinternational.com",
+        "codpayment.com",
+        "dnse5.com",
+        "etnet.com.hk",
+        "fundsupermart.com",
+        "gowallet.com.hk",
+        "hsbc.com.hk",
+        "icbc.com.cn",
+        "ifastgb.com",
+        "jiguang.cn",
+        "jpush.cn",
+        "liveperson.net",
+        "marmot-cloud.com",
+        "mmstat.com",
+        "myqcloud.com",
+        "ocbc.com",
+        "optimizely.com",
+        "qualtrics.com",
+        "shifen.com",
+        "tapngo.com.hk",
+        "vv1865.com",
+        "yundzh.com",
+        "za.group",
+        "zafinsvc.com",
+        "zajourney.com",
+        "zaticdn.com",
+        "zhitongcaijing.com",
+        "zimperium.com"
+      ]
+    }
+  ]
+}

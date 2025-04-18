@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "meowtaverse.io",
+        "account.xiaomi.com",
+        "awsusor1.fds.api.xiaomi.com",
+        "cdn.alsgp0.fds.api.mi-img.com",
+        "cdn.web-global.fds.api.mi-img.com",
+        "c.mi.com",
+        "dispatcher.is.autonavi.com",
+        "region.hlth.io.mi.com",
+        "sg.api.io.mi.com",
+        "sg.hlth.io.mi.com",
+        "sg.watch.iot.mi.com",
+        "ssl-cdn.static.browser.mi-img.com",
+        "static-verify.sec.xiaomi.com",
+        "tracking.miui.com",
+        "us.hlth.io.mi.com",
+        "us.watch.iot.mi.com",
+        "verify.sec.xiaomi.com",
+        "watch.iot.mi.com"
+      ],
+      "domain_suffix": [
+        "ju1.cn",
+        "appsflyersdk.com",
+        "binance.info",
+        "bnbstatic.com",
+        "binance.com",
+        "bntrace.com",
+        "binance.cloud",
+        "unrealengine.com",
+        "epicgames.com",
+        "epicgames.dev",
+        "epicgamescdn.com",
+        "file.myqcloud.com"
+      ]
+    }
+  ]
+}

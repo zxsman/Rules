@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [
+        "ultramobile.com",
+        "braintreegateway.com",
+        "t-mobile.com",
+        "crl.t-mobile.com",
+        "eas3.msg.t-mobile.com",
+        "mascns.t-mobile.com",
+        "ns.sipgeo.t-mobile.com",
+        "3gppnetwork.org",
+        "epdg.epc.mnc240.mcc310.pub.3gppnetwork.org",
+        "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
+        "ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
+        "ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org",
+        "launchdarkly.com"
+      ]
+    }
+  ]
+}
