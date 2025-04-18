@@ -28,7 +28,6 @@ jobs:
             ]
           }' > $output_file
 
-          # 使用 tr 命令去掉 \r 字符
           while IFS=, read -r type value; do
             value=$(echo "$value" | tr -d '\r')  # 去掉 \r 字符
             if [[ "$type" == "DOMAIN" ]]; then
@@ -36,7 +35,7 @@ jobs:
             elif [[ "$type" == "DOMAIN-SUFFIX" ]]; then
               jq --arg value "$value" '.rules[0].domain_suffix += [$value]' $output_file > tmp.json && mv tmp.json $output_file
             fi
-          done < <(tr -d '\r' < "$input_file")  # 读取文件并去掉 \r 字符
+          done < <(tr -d '\r' < "$input_file")
 
           cat $output_file
 
@@ -48,6 +47,7 @@ jobs:
           git add output.json
           if ! git diff --cached --quiet; then
             git commit -m "Convert Direct.txt to JSON format"
+            git pull origin update-direct-json || true  # 尝试拉取远程更改
             git push origin update-direct-json
           else
             echo "No changes to commit."
