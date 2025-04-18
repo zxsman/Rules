@@ -1,0 +1,53 @@
+name: Convert Direct.txt to JSON
+
+on:
+  push:
+    branches:
+      - main  # 触发工作流的分支
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Read Direct.txt and convert to JSON
+        run: |
+          # 读取 Direct.txt 文件
+          input_file="Direct.txt"
+          output_file="output.json"
+
+          # 创建 JSON 结构
+          echo '{
+            "version": 1,
+            "rules": [
+              {
+                "domain": [],
+                "domain_suffix": []
+              }
+            ]
+          }' > $output_file
+
+          # 读取文件内容并填充 JSON
+          while IFS=, read -r type value; do
+            if [[ "$type" == "DOMAIN" ]]; then
+              # 添加 DOMAIN 到 JSON
+              jq --arg value "$value" '.rules[0].domain += [$value]' $output_file > tmp.json && mv tmp.json $output_file
+            elif [[ "$type" == "DOMAIN-SUFFIX" ]]; then
+              # 添加 DOMAIN-SUFFIX 到 JSON
+              jq --arg value "$value" '.rules[0].domain_suffix += [$value]' $output_file > tmp.json && mv tmp.json $output_file
+            fi
+          done < $input_file
+
+          # 输出结果
+          cat $output_file
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output.json
+          git commit -m "Convert Direct.txt to JSON format"
+          git push
