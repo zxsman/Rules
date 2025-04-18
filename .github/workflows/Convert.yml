@@ -3,7 +3,7 @@ name: Convert Direct.txt to JSON
 on:
   push:
     branches:
-      - main
+      - main  # 触发工作流的分支，可以根据需要修改
 
 jobs:
   convert:
@@ -13,11 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Read Direct.txt and convert to JSON
+      - name: Convert Direct.txt to JSON
         run: |
+          # 读取 Direct.txt 文件
           input_file="Direct.txt"
-          output_file="output.json"
+          output_file="Config/Sing_box/Rule_set/Direct.json"
 
+          # 创建 JSON 结构
           echo '{
             "version": 1,
             "rules": [
@@ -28,27 +30,23 @@ jobs:
             ]
           }' > $output_file
 
-          while IFS=, read -r type value; do
-            value=$(echo "$value" | tr -d '\r')  # 去掉 \r 字符
-            if [[ "$type" == "DOMAIN" ]]; then
-              jq --arg value "$value" '.rules[0].domain += [$value]' $output_file > tmp.json && mv tmp.json $output_file
-            elif [[ "$type" == "DOMAIN-SUFFIX" ]]; then
-              jq --arg value "$value" '.rules[0].domain_suffix += [$value]' $output_file > tmp.json && mv tmp.json $output_file
+          # 读取文件内容并填充 JSON
+          while IFS= read -r line; do
+            if [[ $line == DOMAIN,* ]]; then
+              domain=$(echo $line | cut -d',' -f2)
+              jq --arg domain "$domain" '.rules[0].domain += [$domain]' $output_file > tmp.json && mv tmp.json $output_file
+            elif [[ $line == DOMAIN-SUFFIX,* ]]; then
+              domain_suffix=$(echo $line | cut -d',' -f2)
+              jq --arg domain_suffix "$domain_suffix" '.rules[0].domain_suffix += [$domain_suffix]' $output_file > tmp.json && mv tmp.json $output_file
             fi
-          done < <(tr -d '\r' < "$input_file")
+          done < "$input_file"
 
-          cat $output_file
-
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout -b update-direct-json
-          git add output.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Convert Direct.txt to JSON format"
-            git pull origin update-direct-json || true  # 尝试拉取远程更改
-            git push origin update-direct-json
-          else
-            echo "No changes to commit."
-          fi
+          git add Config/Sing_box/Rule_set/Direct.json
+          git commit -m "Update Direct.json from Direct.txt"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
