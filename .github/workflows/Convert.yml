@@ -1,4 +1,4 @@
-name: Convert Direct.txt to JSON
+name: Convert Text Files to JSON
 
 on:
   push:
@@ -13,42 +13,51 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Convert Direct.txt to JSON
+      - name: Convert Text to JSON
         run: |
-          # 读取 Direct.txt 文件
-          input_file="Direct.txt"
-          output_file="Config/Sing_box/Rule_set/Direct.json"
+          convert_to_json() {
+            input_file="$1"
+            output_file="$2"
 
-          # 创建 JSON 结构
-          echo '{
-            "version": 1,
-            "rules": [
-              {
-                "domain": [],
-                "domain_suffix": []
-              }
-            ]
-          }' > $output_file
+            # 创建 JSON 结构
+            echo '{
+              "version": 1,
+              "rules": [
+                {
+                  "domain": [],
+                  "domain_suffix": []
+                }
+              ]
+            }' > "$output_file"
 
-          # 读取文件内容并填充 JSON
-          while IFS= read -r line; do
-            # 删除行末的 \r 字符
-            line=$(echo "$line" | tr -d '\r')
-            if [[ $line == DOMAIN,* ]]; then
-              domain=$(echo $line | cut -d',' -f2)
-              jq --arg domain "$domain" '.rules[0].domain += [$domain]' $output_file > tmp.json && mv tmp.json $output_file
-            elif [[ $line == DOMAIN-SUFFIX,* ]]; then
-              domain_suffix=$(echo $line | cut -d',' -f2)
-              jq --arg domain_suffix "$domain_suffix" '.rules[0].domain_suffix += [$domain_suffix]' $output_file > tmp.json && mv tmp.json $output_file
-            fi
-          done < "$input_file"
+            # 读取文件内容并填充 JSON
+            while IFS= read -r line; do
+              # 删除行末的 \r 字符
+              line=$(echo "$line" | tr -d '\r')
+              if [[ $line == DOMAIN,* ]]; then
+                domain=$(echo "$line" | cut -d',' -f2)
+                jq --arg domain "$domain" '.rules[0].domain += [$domain]' "$output_file" > tmp.json && mv tmp.json "$output_file"
+              elif [[ $line == DOMAIN-SUFFIX,* ]]; then
+                domain_suffix=$(echo "$line" | cut -d',' -f2)
+                jq --arg domain_suffix "$domain_suffix" '.rules[0].domain_suffix += [$domain_suffix]' "$output_file" > tmp.json && mv tmp.json "$output_file"
+              fi
+            done < "$input_file"
+          }
+
+          # 遍历所有 .txt 文件并生成相应的 .json 文件
+          for txt_file in *.txt; do
+            # 获取文件名（不带扩展名）
+            base_name=$(basename "$txt_file" .txt)
+            output_file="Config/Sing_box/Rule_set/${base_name}.json"
+            convert_to_json "$txt_file" "$output_file"
+          done
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add Config/Sing_box/Rule_set/Direct.json
-          git commit -m "Update Direct.json from Direct.txt"
+          git add Config/Sing_box/Rule_set/*.json
+          git commit -m "Update JSON files from .txt files"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
