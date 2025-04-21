@@ -2,6 +2,7 @@
   "version": 1,
   "rules": [
     {
+      "ip_cidr": [],
       "domain": [
         "sns-avatar-qc.xhscdn.com",
         "upc.zztfly.com",

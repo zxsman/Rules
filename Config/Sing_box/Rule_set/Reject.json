@@ -2,6 +2,7 @@
   "version": 1,
   "rules": [
     {
+      "ip_cidr": [],
       "domain": [
         "www.googletagservices.com",
         "www-googletagmanager.l.google.com",
