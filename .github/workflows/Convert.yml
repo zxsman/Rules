@@ -24,6 +24,7 @@ jobs:
               "version": 1,
               "rules": [
                 {
+                  "ip_cidr": [],
                   "domain": [],
                   "domain_suffix": []
                 }
@@ -34,7 +35,10 @@ jobs:
             while IFS= read -r line; do
               # 删除行末的 \r 字符
               line=$(echo "$line" | tr -d '\r')
-              if [[ $line == DOMAIN,* ]]; then
+              if [[ $line == IP-CIDR,* ]]; then
+                ip_cidr=$(echo "$line" | cut -d',' -f2)
+                jq --arg ip_cidr "$ip_cidr" '.rules[0].ip_cidr += [$ip_cidr]' "$output_file" > tmp.json && mv tmp.json "$output_file"
+              elif [[ $line == DOMAIN,* ]]; then
                 domain=$(echo "$line" | cut -d',' -f2)
                 jq --arg domain "$domain" '.rules[0].domain += [$domain]' "$output_file" > tmp.json && mv tmp.json "$output_file"
               elif [[ $line == DOMAIN-SUFFIX,* ]]; then
