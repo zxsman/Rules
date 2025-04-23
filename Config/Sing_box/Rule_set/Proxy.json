@@ -2,7 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "ip_cidr": [],
       "domain": [
         "meowtaverse.io",
         "account.xiaomi.com",

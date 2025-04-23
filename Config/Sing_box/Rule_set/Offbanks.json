@@ -2,8 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "ip_cidr": [],
-      "domain": [],
       "domain_suffix": [
         "airstarbank.com",
         "alibaba.com",
