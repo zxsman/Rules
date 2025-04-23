@@ -35,6 +35,10 @@
         "epicgames.dev",
         "epicgamescdn.com",
         "file.myqcloud.com"
+      ],
+      "domain_keyword": [
+        "tiktokcdn",
+        "tiktokcdn-com"
       ]
     }
   ]
