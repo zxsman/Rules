@@ -26,7 +26,8 @@ jobs:
                 {
                   "ip_cidr": [],
                   "domain": [],
-                  "domain_suffix": []
+                  "domain_suffix": [],
+                  "domain_keyword": []
                 }
               ]
             }' > "$output_file"
@@ -44,11 +45,14 @@ jobs:
               elif [[ $line == DOMAIN-SUFFIX,* ]]; then
                 domain_suffix=$(echo "$line" | cut -d',' -f2)
                 jq --arg domain_suffix "$domain_suffix" '.rules[0].domain_suffix += [$domain_suffix]' "$output_file" > tmp.json && mv tmp.json "$output_file"
+              elif [[ $line == DOMAIN-KEYWORD,* ]]; then
+                domain_keyword=$(echo "$line" | cut -d',' -f2)
+                jq --arg domain_keyword "$domain_keyword" '.rules[0].domain_keyword += [$domain_keyword]' "$output_file" > tmp.json && mv tmp.json "$output_file"
               fi
             done < "$input_file"
 
             # 删除空的数组
-            jq 'del(.rules[0].ip_cidr | select(length == 0)) | del(.rules[0].domain | select(length == 0)) | del(.rules[0].domain_suffix | select(length == 0))' "$output_file" > tmp.json && mv tmp.json "$output_file"
+            jq 'del(.rules[0].ip_cidr | select(length == 0)) | del(.rules[0].domain | select(length == 0)) | del(.rules[0].domain_suffix | select(length == 0)) | del(.rules[0].domain_keyword | select(length == 0))' "$output_file" > tmp.json && mv tmp.json "$output_file"
           }
 
           # 遍历所有 .txt 文件并生成相应的 .json 文件
