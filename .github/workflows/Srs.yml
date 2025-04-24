@@ -37,3 +37,15 @@ jobs:
             exit 1
           fi
         done
+
+    - name: Commit and push changes
+      run: |
+        git add Config/Sing_box/Rule_set/*.srs
+        if git diff-index --quiet HEAD --; then
+          echo "No changes to commit"
+        else
+          git config user.name "github-actions[bot]"
+          git config user.email "action@github.com"
+          git commit -m "Converted JSON files to SRS"
+          git push
+        fi
