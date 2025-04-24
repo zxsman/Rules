@@ -1,6 +1,9 @@
 name: Convert JSON to SRS
 
 on:
+  push:
+    paths:
+      - Config/Sing_box/Rule_set/*.json
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
