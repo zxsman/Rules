@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,antpcdn.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 #網站視頻
+DOMAIN-KEYWORD,v.anime
 DOMAIN-KEYWORD,iyhdm
 DOMAIN-SUFFIX,iyhdmm.com
 DOMAIN-SUFFIX,iyhdm.com
