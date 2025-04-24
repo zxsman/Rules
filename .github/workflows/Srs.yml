@@ -1,6 +1,9 @@
-name: Sync and Compile Sing-Box Rules
+name: Convert JSON to SRS
 
 on:
+  push:
+    paths:
+      - Config/Sing_box/Rule_set/*.json
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
@@ -9,44 +12,38 @@ permissions:
   contents: write
 
 jobs:
-  sync_and_compile:
+  convert_json_to_srs:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout the repository
       uses: actions/checkout@v3
 
-    - name: Set up Git user
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-
     - name: Install sing-box
       run: |
         curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.29/sing-box-1.10.0-alpha.29-linux-amd64.tar.gz
         tar -xzf sing-box.tar.gz
-        chmod +x sing-box-1.10.0-alpha.29-linux-amd64/sing-box
         sudo mv sing-box-1.10.0-alpha.29-linux-amd64/sing-box /usr/local/bin/sing-box
-        sing-box version
 
     - name: Convert JSON files to SRS
       run: |
+        changed=false
         for json_file in Config/Sing_box/Rule_set/*.json; do
           srs_file="${json_file%.json}.srs"
-          echo "Compiling: $json_file to $srs_file"
-          if ! sing-box rule-set compile "$json_file" -o "$srs_file"; then
-            echo "Error compiling $json_file"
+          if sing-box rule-set compile "$json_file" -o "$srs_file"; then
+            changed=true
+          else
+            echo "Error converting $json_file"
             exit 1
           fi
         done
+        echo "changed=$changed" >> $GITHUB_ENV
 
     - name: Commit and push changes
+      if: env.changed == 'true'
       run: |
+        git config --local user.name "Github Actions"
+        git config --local user.email "action@github.com"
         git add Config/Sing_box/Rule_set/*.srs
-        if git diff-index --quiet HEAD --; then
-          echo "No changes to commit"
-          echo "No updates needed"
-        else
-          git commit -m "Converted JSON files to SRS"
-          git push
-        fi
+        git commit -m "Converted JSON files to SRS"
+        git push
