@@ -1,0 +1,36 @@
+name: Convert JSON to SRS
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert_json_to_srs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Install sing-box
+      run: |
+        curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.29/sing-box-1.10.0-alpha.29-linux-amd64.tar.gz
+        tar -xzf sing-box.tar.gz
+        chmod +x sing-box-1.10.0-alpha.29-linux-amd64/sing-box
+        sudo mv sing-box-1.10.0-alpha.29-linux-amd64/sing-box /usr/local/bin/sing-box
+        sing-box version
+
+    - name: Convert JSON files to SRS
+      run: |
+        for json_file in Config/Sing_box/Rule_set/*.json; do
+          srs_file="${json_file%.json}.srs"
+          echo "Converting: $json_file to $srs_file"
+          if ! sing-box rule-set compile "$json_file" -o "$srs_file"; then
+            echo "Error converting $json_file"
+            exit 1
+          fi
+        done
