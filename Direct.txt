@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,antpcdn.com
 DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,scdsjzx.com
 #網站視頻
 DOMAIN-KEYWORD,iyhdm
 DOMAIN-SUFFIX,iyhdmm.com
@@ -335,6 +336,7 @@ DOMAIN-SUFFIX,tencentcs.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,volcgtm.com
 DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatapp.com
 DOMAIN-SUFFIX,wechatlegal.net
 DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,wechatpay.com
