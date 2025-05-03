@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,jpshuntong.com
 DOMAIN-SUFFIX,hprtdata.com
 DOMAIN-SUFFIX,hprtupgrade.com
 #Apple
+IP-CIDR,17.0.0.0/8,no-resolve
+
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
 DOMAIN-SUFFIX,apple.com
