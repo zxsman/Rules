@@ -295,6 +295,7 @@ DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishucdn.com
 DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,huilaimi.com
 DOMAIN-SUFFIX,huolala.cn
 DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,icc.link
