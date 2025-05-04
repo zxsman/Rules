@@ -29,9 +29,7 @@
         "marmot-cloud.com",
         "mmstat.com",
         "myqcloud.com",
-        "ocbc.com",
         "optimizely.com",
-        "qualtrics.com",
         "shifen.com",
         "tapngo.com.hk",
         "vv1865.com",
@@ -41,7 +39,14 @@
         "zajourney.com",
         "zaticdn.com",
         "zhitongcaijing.com",
-        "zimperium.com"
+        "zimperium.com",
+        "ocbc.com",
+        "adobedtm.com",
+        "adobedc.net",
+        "demdex.net",
+        "online-metrix.net",
+        "adjust.com",
+        "qualtrics.com"
       ]
     }
   ]
