@@ -20,10 +20,7 @@ jobs:
 
       - name: Update Direct.txt
         run: |
-          awk 'BEGIN{found=0} 
-               /#CN/{found=1; print; next} 
-               found && NF{found=0; next} 
-               {print}' Direct.txt > temp.txt
+          awk '/#CN/{print; found=1; next} found{exit} {print}' Direct.txt > temp.txt
           cat new_entries.txt >> temp.txt
           mv temp.txt Direct.txt
 
