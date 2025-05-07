@@ -1,0 +1,31 @@
+name: Update Direct.txt
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download content
+        run: |
+          curl -o new_content.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cn.list
+
+      - name: Append content to Direct.txt
+        run: |
+          cat new_content.txt >> Direct.txt
+          rm new_content.txt  # 清理临时文件
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add Direct.txt
+          git commit -m "Update Direct.txt with new content from cn.list" || echo "No changes to commit"
+          git push
