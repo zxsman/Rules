@@ -20,7 +20,12 @@ jobs:
 
       - name: Update Direct.txt
         run: |
-          awk '/#CN/{print; system("cat new_entries.txt"); next}1' Direct.txt > temp.txt && mv temp.txt Direct.txt
+          awk 'BEGIN{found=0} 
+               /#CN/{found=1; print; next} 
+               found && NF{found=0; next} 
+               {print}' Direct.txt > temp.txt
+          cat new_entries.txt >> temp.txt
+          mv temp.txt Direct.txt
 
       - name: Commit changes
         run: |
