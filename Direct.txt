@@ -345,6 +345,7 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+#CN
 1.0.1.0/24
 1.0.2.0/23
 1.0.8.0/21
