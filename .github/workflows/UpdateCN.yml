@@ -15,12 +15,7 @@ jobs:
 
       - name: Download content
         run: |
-          curl -o temp.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list
-
-      - name: Append content to Direct.txt
-        run: |
-          cat temp.txt >> Direct.txt
-          rm temp.txt  # 删除临时文件
+          curl -s https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list >> Direct.txt
 
       - name: Commit changes
         run: |
