@@ -13,9 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Download content
+      - name: Download and format content
         run: |
-          curl -s https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list >> Direct.txt
+          curl -s https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list | \
+          sed 's/^/IP-CIDR,/' | sed 's/$/,no-resolve/' >> Direct.txt
 
       - name: Commit changes
         run: |
