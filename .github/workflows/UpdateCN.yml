@@ -16,7 +16,7 @@ jobs:
       - name: Download and format content
         run: |
           curl -s https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list | \
-          sed 's/^/IP-CIDR,/' | sed 's/$/,no-resolve/' > new_entries.txt
+          awk '{if ($0 ~ /:/) print "IP-CIDR6," $0 ",no-resolve"; else print "IP-CIDR," $0 ",no-resolve"}' > new_entries.txt
 
       - name: Update Direct.txt
         run: |
