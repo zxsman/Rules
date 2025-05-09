@@ -71,8 +71,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main  # 拉取遠端的更改
           git add Config/Sing_box/Rule_set/*.json
-          git commit -m "Update JSON files from .txt files"
+          git commit -m "Update JSON files from .txt files" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
