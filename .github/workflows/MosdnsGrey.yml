@@ -1,0 +1,59 @@
+name: Update Greylist
+
+on:
+  push:
+    branches:
+      - main  # 你可以根据需要修改为其他分支
+
+jobs:
+  update-greylist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Process Proxy.txt and Videos.txt
+        run: |
+          # 创建一个临时文件
+          temp_file="Mosdns/greylist.txt"
+          echo "" > $temp_file
+
+          # 处理 Proxy.txt
+          echo "#Proxy" >> $temp_file
+          while IFS= read -r line; do
+            if [[ ! $line =~ ^# ]]; then
+              if [[ $line == DOMAIN* ]]; then
+                echo "full:${line#DOMAIN,}" >> $temp_file
+              elif [[ $line == DOMAIN-SUFFIX* ]]; then
+                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
+              elif [[ $line == DOMAIN-KEYWORD* ]]; then
+                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
+              fi
+            fi
+          done < Proxy.txt
+
+          # 处理 Videos.txt
+          echo "#Videos" >> $temp_file
+          while IFS= read -r line; do
+            if [[ ! $line =~ ^# ]]; then
+              if [[ $line == DOMAIN* ]]; then
+                echo "full:${line#DOMAIN,}" >> $temp_file
+              elif [[ $line == DOMAIN-SUFFIX* ]]; then
+                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
+              elif [[ $line == DOMAIN-KEYWORD* ]]; then
+                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
+              fi
+            fi
+          done < Videos.txt
+
+          # 将结果写入 Mosdns/greylist.txt
+          mv $temp_file Mosdns/greylist.txt
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add Mosdns/greylist.txt
+          git commit -m "Update greylist.txt"
+          git push
