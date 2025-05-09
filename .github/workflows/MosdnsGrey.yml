@@ -20,7 +20,8 @@ jobs:
           echo "" > $temp_file
 
           # 复制原始 Greylist.txt 的内容到临时文件
-          cat Mosdns/Greylist.txt >> $temp_file
+          # 只保留 #Remote 之前的内容
+          awk '/#Remote/{exit} {print}' Mosdns/Greylist.txt >> $temp_file
 
           # 添加处理内容的标记
           echo "#Proxy" >> $temp_file
