@@ -115,4 +115,10 @@ domain:surrit.com
 domain:fivetiu.com
 domain:sixyik.com
 domain:etcbbg.xyz
-domain:Reddit.com
+domain:redd.it
+domain:reddit.com
+domain:redditinc.com
+domain:redditmail.com
+domain:redditmedia.com
+domain:redditstatic.com
+domain:redditstaus.com
