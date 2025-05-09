@@ -47,7 +47,7 @@ DOMAIN-SUFFIX,listdl.com
 DOMAIN-SUFFIX,wetest.net
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,app-analytics-services.com
-DOMAIN-SUFFIX,appsflyersdk.com
+#DOMAIN-SUFFIX,appsflyersdk.com
 #順通轉運
 DOMAIN-SUFFIX,jpshuntong.net
 DOMAIN-SUFFIX,jpshuntong.com
