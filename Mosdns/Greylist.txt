@@ -7,7 +7,7 @@ keyword:reddit
 keyword:github
 #Remote
 #Proxy
-full:se.io
+full:sex.io
 full:meowtaverse.io
 domain:ju1.cn
 domain:appsflyersdk.com
