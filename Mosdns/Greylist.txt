@@ -45,7 +45,6 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
-domain:abc.io
 #Videos
 domain:ultramobile.com
 domain:braintreegateway.com
