@@ -16,10 +16,13 @@ jobs:
       - name: Process Proxy.txt and Videos.txt
         run: |
           # 创建一个临时文件
-          temp_file="Mosdns/greylist_temp.txt"
+          temp_file="Mosdns/Greylist_temp.txt"
           echo "" > $temp_file
 
-          # 处理 Proxy.txt
+          # 复制原始 Greylist.txt 的内容到临时文件
+          cat Mosdns/Greylist.txt >> $temp_file
+
+          # 添加处理内容的标记
           echo "#Proxy" >> $temp_file
           while IFS= read -r line; do
             if [[ ! $line =~ ^# ]]; then
@@ -47,13 +50,13 @@ jobs:
             fi
           done < Videos.txt
 
-          # 将结果写入 Mosdns/greylist.txt
-          mv $temp_file Mosdns/greylist.txt
+          # 将结果写入 Mosdns/Greylist.txt
+          mv $temp_file Mosdns/Greylist.txt
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add Mosdns/greylist.txt
-          git commit -m "Update greylist.txt"
+          git add Mosdns/Greylist.txt
+          git commit -m "Update Greylist.txt"
           git push
