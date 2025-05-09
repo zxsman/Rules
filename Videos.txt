@@ -97,3 +97,5 @@ DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 DOMAIN-SUFFIX,etcbbg.xyz
+#Reddit
+DOMAIN-SUFFIX,Reddit.com
