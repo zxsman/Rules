@@ -9,7 +9,6 @@ keyword:github
 #Proxy
 full:meowtaverse.io
 domain:ju1.cn
-domain:appsflyersdk.com
 keyword:tiktokcdn
 keyword:tiktokcdn-com
 full:account.xiaomi.com
