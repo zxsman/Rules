@@ -26,9 +26,9 @@ jobs:
               if [[ $line == DOMAIN,* ]]; then
                 echo "full:${line#DOMAIN,}" >> $temp_file
               elif [[ $line == DOMAIN-SUFFIX,* ]]; then
-                echo "${line}" >> $temp_file
+                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
               elif [[ $line == DOMAIN-KEYWORD,* ]]; then
-                echo "${line}" >> $temp_file
+                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
               fi
             fi
           done < Proxy.txt
@@ -40,9 +40,9 @@ jobs:
               if [[ $line == DOMAIN,* ]]; then
                 echo "full:${line#DOMAIN,}" >> $temp_file
               elif [[ $line == DOMAIN-SUFFIX,* ]]; then
-                echo "${line}" >> $temp_file
+                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
               elif [[ $line == DOMAIN-KEYWORD,* ]]; then
-                echo "${line}" >> $temp_file
+                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
               fi
             fi
           done < Videos.txt
