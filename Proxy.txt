@@ -3,7 +3,7 @@ DOMAIN,meowtaverse.io
 #違禁詞審查
 DOMAIN-SUFFIX,ju1.cn
 #Tiktok
-DOMAIN-SUFFIX,appsflyersdk.com
+#DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,tiktokcdn-com
 #小米手環
