@@ -23,12 +23,12 @@ jobs:
           echo "#Proxy" >> $temp_file
           while IFS= read -r line; do
             if [[ ! $line =~ ^# ]]; then
-              if [[ $line == DOMAIN* ]]; then
+              if [[ $line == DOMAIN,* ]]; then
                 echo "full:${line#DOMAIN,}" >> $temp_file
-              elif [[ $line == DOMAIN-SUFFIX* ]]; then
-                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
-              elif [[ $line == DOMAIN-KEYWORD* ]]; then
-                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
+              elif [[ $line == DOMAIN-SUFFIX,* ]]; then
+                echo "${line}" >> $temp_file
+              elif [[ $line == DOMAIN-KEYWORD,* ]]; then
+                echo "${line}" >> $temp_file
               fi
             fi
           done < Proxy.txt
@@ -37,12 +37,12 @@ jobs:
           echo "#Videos" >> $temp_file
           while IFS= read -r line; do
             if [[ ! $line =~ ^# ]]; then
-              if [[ $line == DOMAIN* ]]; then
+              if [[ $line == DOMAIN,* ]]; then
                 echo "full:${line#DOMAIN,}" >> $temp_file
-              elif [[ $line == DOMAIN-SUFFIX* ]]; then
-                echo "domain:${line#DOMAIN-SUFFIX,}" >> $temp_file
-              elif [[ $line == DOMAIN-KEYWORD* ]]; then
-                echo "keyword:${line#DOMAIN-KEYWORD,}" >> $temp_file
+              elif [[ $line == DOMAIN-SUFFIX,* ]]; then
+                echo "${line}" >> $temp_file
+              elif [[ $line == DOMAIN-KEYWORD,* ]]; then
+                echo "${line}" >> $temp_file
               fi
             fi
           done < Videos.txt
