@@ -3,9 +3,7 @@ name: Convert Text Files to JSON
 on:
   push:
     branches:
-      - main  # 觸發工作流的分支，可以根據需要修改
-    paths:
-      - '*.txt'  # 只在根目錄下的 .txt 文件發生變更時觸發
+      - main  # 触发工作流的分支，可以根据需要修改
 
 jobs:
   convert:
@@ -21,7 +19,7 @@ jobs:
             input_file="$1"
             output_file="$2"
 
-            # 創建 JSON 結構
+            # 创建 JSON 结构
             echo '{
               "version": 1,
               "rules": [
@@ -34,9 +32,9 @@ jobs:
               ]
             }' > "$output_file"
 
-            # 讀取文件內容並填充 JSON
+            # 读取文件内容并填充 JSON
             while IFS= read -r line; do
-              # 刪除行末的 \r 字符
+              # 删除行末的 \r 字符
               line=$(echo "$line" | tr -d '\r')
               if [[ $line == IP-CIDR,* ]]; then
                 ip_cidr=$(echo "$line" | cut -d',' -f2)
@@ -53,27 +51,24 @@ jobs:
               fi
             done < "$input_file"
 
-            # 刪除空的數組
+            # 删除空的数组
             jq 'del(.rules[0].ip_cidr | select(length == 0)) | del(.rules[0].domain | select(length == 0)) | del(.rules[0].domain_suffix | select(length == 0)) | del(.rules[0].domain_keyword | select(length == 0))' "$output_file" > tmp.json && mv tmp.json "$output_file"
           }
 
-          # 遍歷根目錄下的所有 .txt 文件並生成相應的 .json 文件
+          # 遍历所有 .txt 文件并生成相应的 .json 文件
           for txt_file in *.txt; do
-            if [ -f "$txt_file" ]; then  # 確保是文件
-              # 獲取文件名（不帶擴展名）
-              base_name=$(basename "$txt_file" .txt)
-              output_file="Config/Sing_box/Rule_set/${base_name}.json"
-              convert_to_json "$txt_file" "$output_file"
-            fi
+            # 获取文件名（不带扩展名）
+            base_name=$(basename "$txt_file" .txt)
+            output_file="Config/Sing_box/Rule_set/${base_name}.json"
+            convert_to_json "$txt_file" "$output_file"
           done
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase origin main  # 使用 rebase 拉取遠端的更改
           git add Config/Sing_box/Rule_set/*.json
-          git commit -m "Update JSON files from .txt files" || echo "No changes to commit"
+          git commit -m "Update JSON files from .txt files"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
