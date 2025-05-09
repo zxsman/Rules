@@ -1,5 +1,5 @@
 #少數網站
-DOMAIN,se.io
+DOMAIN,sex.io
 DOMAIN,meowtaverse.io
 #違禁詞審查
 DOMAIN-SUFFIX,ju1.cn
