@@ -16,7 +16,7 @@ jobs:
       - name: Process Proxy.txt and Videos.txt
         run: |
           # 创建一个临时文件
-          temp_file="Mosdns/greylist.txt"
+          temp_file="Mosdns/greylist_temp.txt"
           echo "" > $temp_file
 
           # 处理 Proxy.txt
