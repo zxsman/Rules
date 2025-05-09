@@ -19,10 +19,10 @@ jobs:
           temp_file="Mosdns/Greylist_temp.txt"
 
           # 复制原始 Greylist.txt 的内容到临时文件
-          # 只保留 #Remote 之前的内容
+          # 保留 #Remote 及其以上的内容
           awk '/#Remote/{print; exit} {print}' Mosdns/Greylist.txt > $temp_file
 
-          # 添加处理内容的标记
+          # 添加 #Proxy 标记
           echo "#Proxy" >> $temp_file
           while IFS= read -r line; do
             if [[ ! $line =~ ^# ]]; then
@@ -36,7 +36,7 @@ jobs:
             fi
           done < Proxy.txt
 
-          # 处理 Videos.txt
+          # 添加 #Videos 标记
           echo "#Videos" >> $temp_file
           while IFS= read -r line; do
             if [[ ! $line =~ ^# ]]; then
