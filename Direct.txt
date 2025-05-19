@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,pipecdn.vip
 #易名科技
 DOMAIN-SUFFIX,amemv.com
 #AliCloud Unknown
+DOMAIN-SUFFIX,hwwt8.com
 DOMAIN-SUFFIX,rrzu.com
 DOMAIN-SUFFIX,qiezibenpao.com
 DOMAIN-SUFFIX,qcc.com
