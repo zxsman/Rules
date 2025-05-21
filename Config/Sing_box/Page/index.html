@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>代理转换</title>
+        <style>
+            textarea {
+                width: 100%;
+                height: 200px;
+            }
+            button {
+                margin: 10px 0;
+            }
+        </style>
+        <script src="test.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    </head>
+    <body>
+        <textarea
+            id="input"
+            placeholder="请输入待转换的代理配置 支持v2ray/clash格式 或者多行URI"
+        ></textarea>
+        <button onclick="convert()">转换</button>
+        <textarea id="output" readonly></textarea>
+
+        <script>
+            function isValidSubYAML(str) {
+                if (typeof str !== "string") return false;
+                try {
+                    //看是不是有proxies
+                    const { proxies } = jsyaml.load(str);
+                    //双感叹号 `!!` 是一个常用的编程技巧，用来将一个值强制转换为布尔类型（boolean）
+                    return !!proxies;
+                } catch {
+                    return false;
+                }
+            }
+
+            // 判断是否为有效的Base64
+            function isValidBase64(str) {
+                try {
+                    return btoa(atob(str)) === str;
+                } catch (err) {
+                    return false;
+                }
+            }
+            // Base64解码
+            function base64Decode(str) {
+                try {
+                    return decodeURIComponent(escape(atob(str)));
+                } catch (err) {
+                    return atob(str);
+                }
+            }
+            function convert() {
+                try {
+                    let input = document.getElementById("input").value.trim();
+                    let lines;
+
+                    let proxies = [];
+
+                    if (isValidSubYAML(input)) {
+                        // 如果是yaml，认为是clash格式的
+                        proxies = jsyaml.load(input).proxies;
+                        lines = [];
+                    } else if (isValidBase64(input)) {
+                        // 如果是base64，认为是v2ray格式的
+                        lines = base64Decode(input)
+                            .split("\n")
+                            .filter((v) => v);
+                    } else {
+                        // 如果是其他格式，认为是单行的节点信息
+                        lines = input.split("\n").filter((v) => v);
+                    }
+
+                    for (let line of lines) {
+                        const schema = line.split("://")[0];
+                        const protocol = protocolForClash[schema.toLowerCase()];
+                        if (!protocol) {
+                            console.log(`未支持的协议: ${schema}`);
+                            continue;
+                        }
+                        try {
+                            const proxy = protocol.parse(line);
+                            proxies.push(proxy);
+                        } catch (error) {
+                            console.log("解析错误:", error);
+                        }
+                    }
+
+                    const singbox_proxies = [];
+
+                    const protocolForSingBoxMap = protocolForSingBox();
+                    for (let proxy of proxies) {
+                        try {
+                            const _proxy =
+                                protocolForSingBoxMap[proxy.type](proxy);
+                            singbox_proxies.push(_proxy);
+                        } catch (error) {
+                            console.log("解析错误SingBox节点", error);
+                        }
+                    }
+
+                    console.log("singbox", singbox_proxies);
+
+                    document.getElementById("output").value = JSON.stringify(
+                        singbox_proxies,
+                        null,
+                        2,
+                    );
+                } catch (error) {
+                    console.error("转换失败:", error);
+                }
+            }
+        </script>
+    </body>
+</html>
