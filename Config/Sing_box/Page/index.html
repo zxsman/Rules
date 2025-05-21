@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>代理转换</title>
+        <title>代理轉換</title>
         <style>
             textarea {
                 width: 100%;
@@ -17,9 +17,9 @@
     <body>
         <textarea
             id="input"
-            placeholder="请输入待转换的代理配置 支持v2ray/clash格式 或者多行URI"
+            placeholder="請輸入待轉換的代理配置 支持v2ray/clash格式 或者多行URI"
         ></textarea>
-        <button onclick="convert()">转换</button>
+        <button onclick="convert()">轉換</button>
         <textarea id="output" readonly></textarea>
 
         <script>
@@ -28,14 +28,14 @@
                 try {
                     //看是不是有proxies
                     const { proxies } = jsyaml.load(str);
-                    //双感叹号 `!!` 是一个常用的编程技巧，用来将一个值强制转换为布尔类型（boolean）
+                    //雙感嘆號 `!!` 是一個常用的變成技巧，用來將一個值强制轉換為布爾類型（boolean）
                     return !!proxies;
                 } catch {
                     return false;
                 }
             }
 
-            // 判断是否为有效的Base64
+            // 判斷是否爲有效的Base64
             function isValidBase64(str) {
                 try {
                     return btoa(atob(str)) === str;
@@ -43,7 +43,7 @@
                     return false;
                 }
             }
-            // Base64解码
+            // Base64解碼
             function base64Decode(str) {
                 try {
                     return decodeURIComponent(escape(atob(str)));
@@ -59,16 +59,16 @@
                     let proxies = [];
 
                     if (isValidSubYAML(input)) {
-                        // 如果是yaml，认为是clash格式的
+                        // 如果是yaml，認爲是clash格式的
                         proxies = jsyaml.load(input).proxies;
                         lines = [];
                     } else if (isValidBase64(input)) {
-                        // 如果是base64，认为是v2ray格式的
+                        // 如果是base64，認爲是v2ray格式的
                         lines = base64Decode(input)
                             .split("\n")
                             .filter((v) => v);
                     } else {
-                        // 如果是其他格式，认为是单行的节点信息
+                        // 如果是其他格式，認爲是單行的節點信息
                         lines = input.split("\n").filter((v) => v);
                     }
 
@@ -76,14 +76,14 @@
                         const schema = line.split("://")[0];
                         const protocol = protocolForClash[schema.toLowerCase()];
                         if (!protocol) {
-                            console.log(`未支持的协议: ${schema}`);
+                            console.log(`為支持的協議: ${schema}`);
                             continue;
                         }
                         try {
                             const proxy = protocol.parse(line);
                             proxies.push(proxy);
                         } catch (error) {
-                            console.log("解析错误:", error);
+                            console.log("解析錯誤:", error);
                         }
                     }
 
@@ -96,7 +96,7 @@
                                 protocolForSingBoxMap[proxy.type](proxy);
                             singbox_proxies.push(_proxy);
                         } catch (error) {
-                            console.log("解析错误SingBox节点", error);
+                            console.log("解析錯誤的SingBox節點", error);
                         }
                     }
 
@@ -108,7 +108,7 @@
                         2,
                     );
                 } catch (error) {
-                    console.error("转换失败:", error);
+                    console.error("轉換失敗:", error);
                 }
             }
         </script>
