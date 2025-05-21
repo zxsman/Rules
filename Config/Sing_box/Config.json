@@ -1,0 +1,248 @@
+{
+	"log": {
+		"disabled": false,
+		"level": "warn",
+		"timestamp": true
+	},
+	"dns": {
+		"servers": [
+			{
+				"tag": "default-dns",
+				"address": "114.114.114.114",
+				"detour": "direct-out"
+			},
+			{
+				"tag": "system-dns",
+				"address": "local",
+				"detour": "direct-out"
+			},
+			{
+				"tag": "block-dns",
+				"address": "rcode://name_error"
+			},
+			{
+				"tag": "Google",
+				"address": "https://dns.google/dns-query",
+				"address_resolver": "default-dns",
+				"address_strategy": "ipv4_only",
+				"strategy": "ipv4_only",
+				"client_subnet": "1.0.1.0"
+			}
+		],
+		"rules": [
+			{
+				"outbound": [
+					"any"
+				],
+				"server": "default-dns"
+			},
+			{
+				"clash_mode": "direct",
+				"server": "default-dns"
+			},
+			{
+				"clash_mode": "global",
+				"server": "Google"
+			},
+			{
+				"rule_set": [
+					"cnsite",
+					"alipay",
+					"gitdirect",
+					"offbanks",
+					"rednote"
+				],
+				"server": "default-dns"
+			}
+		],
+		"strategy": "prefer_ipv4",
+		"disable_cache": false,
+		"disable_expire": false,
+		"independent_cache": false,
+		"final": "Google"
+	},
+	"inbounds": [
+		{
+   			"type": "tun",
+   			"tag": "tun-in",
+   			"inet4_address": "172.19.0.1/30",
+   			"mtu": 9000,
+   			"gso": true,
+   			"auto_route": true,
+   			"stack": "system",
+   			"sniff": true,
+   			"sniff_override_destination": false
+		}
+	],
+	"outbounds": [
+		{
+			"type": "direct",
+			"tag": "direct-out",
+			"routing_mark": 100
+		},
+		{
+			"type": "block",
+			"tag": "block-out"
+		},
+		{
+			"type": "dns",
+			"tag": "dns-out"
+		},
+		{
+			A
+		},
+		{
+			"type": "urltest",
+			"tag": "videoo",
+			"outbounds": [
+				"🇺🇸 Racknerd HY2",
+				"🇺🇸 Racknerd CDN"
+			]
+		},
+		{
+			"type": "urltest",
+			"tag": "自動選擇",
+			"outbounds": [
+
+			]
+		},
+		{
+			"type": "selector",
+			"tag": "手動選擇",
+			"outbounds": [
+				"direct-out",
+				"block-out",
+				"自動選擇"
+			],
+			"default": "自動選擇"
+		},
+		{
+			"type": "selector",
+			"tag": "GLOBAL",
+			"outbounds": [
+				"direct-out",
+				"block-out",
+				"自動選擇",
+				"手動選擇"
+			],
+			"default": "手動選擇"
+		}
+	],
+	"route": {
+		"rules": [
+			{
+				"protocol": "dns",
+				"outbound": "dns-out"
+			},
+			{
+				"clash_mode": "direct",
+				"outbound": "direct-out"
+			},
+			{
+				"clash_mode": "global",
+				"outbound": "GLOBAL"
+			},
+			{
+				"rule_set": [
+					"gitproxy"
+				],
+				"outbound": "手動選擇"
+			},
+			{
+				"rule_set": [
+					"video"
+				],
+				"clash_mode": "rule",
+				"outbound": "videoo"
+			},
+			{
+				"rule_set": [
+					"cnip",
+					"cnsite",
+					"alipay",
+					"gitdirect",
+					"offbanks",
+					"rednote"
+				],
+				"outbound": "direct-out"
+			}
+		],
+		"rule_set": [
+			{
+				"type": "remote",
+				"tag": "cnip",
+				"format": "binary",
+				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/cn.srs",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "cnsite",
+				"format": "binary",
+				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/cn.srs",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "video",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Videos.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "alipay",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Alipay.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "gitdirect",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Direct.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "offbanks",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Offbanks.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "gitproxy",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Proxy.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "rednote",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Rednote.json",
+				"download_detour": "自動選擇"
+			},
+			{
+				"type": "remote",
+				"tag": "reject",
+				"format": "source",
+				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Reject.json",
+				"download_detour": "自動選擇"
+			}
+		],
+		"auto_detect_interface": true,
+		"final": "手動選擇"
+	},
+	"experimental": {
+		"cache_file": {
+			"enabled": true
+		},
+		"clash_api": {
+			"external_controller": "127.0.0.1:9090",
+			"external_ui_download_detour": "自動選擇",
+			"default_mode": "rule"
+		}
+	}
+}
