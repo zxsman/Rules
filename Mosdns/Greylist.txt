@@ -44,6 +44,7 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
+full:login-jp.aki-game.net
 #Videos
 domain:ultramobile.com
 domain:braintreegateway.com
