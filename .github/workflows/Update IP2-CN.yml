@@ -1,0 +1,28 @@
+name: Update IP2-CN File
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小時運行一次
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  update-cidr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch CIDR data
+        run: |
+          curl -o GeoIP2-CN.txt https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
+          sed -i 's/^/IP-CIDR,/' GeoIP2-CN.txt
+          sed -i 's/$/,no-resolve/' GeoIP2-CN.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "your_email@example.com"
+          git config --local user.name "your_username"
+          git add GeoIP2-CN.txt
+          git commit -m "Update GeoIP2-CN.txt" || echo "No changes to commit"
+          git push
