@@ -170,14 +170,14 @@
 				"type": "remote",
 				"tag": "cnip",
 				"format": "binary",
-				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/cn.srs",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/cn.srs",
 				"download_detour": "自動選擇"
 			},
 			{
 				"type": "remote",
 				"tag": "cnsite",
 				"format": "binary",
-				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/cn.srs",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/cn.srs",
 				"download_detour": "自動選擇"
 			},
 			{
