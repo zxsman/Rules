@@ -89,9 +89,6 @@
 			"tag": "dns-out"
 		},
 		{
-			A
-		},
-		{
 			"type": "urltest",
 			"tag": "videoo",
 			"outbounds": [
