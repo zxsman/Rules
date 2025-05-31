@@ -242,7 +242,7 @@ rules:
   - RULE-SET,Rednote,DIRECT
   - RULE-SET,Offbanks,DIRECT
   - GEOIP,LAN,DIRECT,no-resolve
-  - GEOIP,CN,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
   - MATCH,Final
 rule-providers:
   GitReject:
