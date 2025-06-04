@@ -121,3 +121,4 @@ domain:redditmail.com
 domain:redditmedia.com
 domain:redditstatic.com
 domain:redditstaus.com
+domain:mega.co.nz
