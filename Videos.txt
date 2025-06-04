@@ -105,3 +105,5 @@ DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstaus.com
+#Mega
+DOMAIN-SUFFIX,mega.co.nz
