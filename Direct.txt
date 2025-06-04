@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 #Mega
+DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,userstorage.mega.co.nz
 #鳴潮
 #IP-CIDR,43.133.0.0/19,no-resolve
