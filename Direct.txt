@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 #Mega
+DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,userstorage.mega.co.nz
 #鳴潮
