@@ -28,6 +28,7 @@ DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
+DOMAIN-SUFFIX,ahcdn.com
 #Mega
 #DOMAIN-SUFFIX,mega.co.nz
 #鳴潮
