@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,nqfztcddi2yh.com
 DOMAIN-SUFFIX,ahcdn.com
 #Mega
 #DOMAIN-SUFFIX,mega.co.nz
+#Nikke
+DOMAIN-SUFFIX,cloud.nikke-kr.com
 #鳴潮
 #IP-CIDR,43.133.0.0/19,no-resolve
 IP-CIDR,43.133.192.0/19,no-resolve
