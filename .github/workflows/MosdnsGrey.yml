@@ -43,6 +43,10 @@ jobs:
           # 将结果写入 Mosdns/Greylist.txt，如果統一文件的話代碼就放到下面
           mv $temp_file Mosdns/Greylist.txt
 
+          # 复制原始 Streaming.txt 的内容到临时文件
+          # 保留 #Remote 及其以上的内容 統一的話代碼刪除或注釋
+          awk '/#Remote/{print; exit} {print}' Mosdns/Streaming.txt > $temp_file
+          
           # 添加 #Videos 标记
           echo "#Videos" >> $temp_file
           while IFS= read -r line; do
