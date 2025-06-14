@@ -1,5 +1,3 @@
-keyword:googlevideo
-#Remote
 #Videos
 domain:ultramobile.com
 domain:braintreegateway.com
