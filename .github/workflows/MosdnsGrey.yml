@@ -1,6 +1,7 @@
 name: Update Greylist
 
 on:
+  workflow_dispatch:  # 允許手動觸發
   push:
     branches:
       - main  # 你可以根据需要修改为其他分支
