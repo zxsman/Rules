@@ -1,9 +1,7 @@
 keyword:google
 keyword:youtube
-keyword:googlevideo
 keyword:bing
 keyword:microsoft
-keyword:reddit
 keyword:github
 #Remote
 #Proxy
