@@ -39,6 +39,9 @@ jobs:
             fi
           done < Proxy.txt
 
+          # 将结果写入 Mosdns/Greylist.txt，如果統一文件的話代碼就放到下面
+          mv $temp_file Mosdns/Greylist.txt
+
           # 添加 #Videos 标记
           echo "#Videos" >> $temp_file
           while IFS= read -r line; do
@@ -53,13 +56,14 @@ jobs:
             fi
           done < Videos.txt
 
-          # 将结果写入 Mosdns/Greylist.txt
-          mv $temp_file Mosdns/Greylist.txt
+          # 将结果写入 Mosdns/Streaming.txt
+          mv $temp_file Mosdns/Streaming.txt
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Mosdns/Greylist.txt
+          git add Mosdns/Streaming.txt
           git commit -m "Update Greylist.txt"
           git push
