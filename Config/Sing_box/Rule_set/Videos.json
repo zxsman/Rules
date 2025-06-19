@@ -86,7 +86,18 @@
         "redditmedia.com",
         "redditstatic.com",
         "redditstaus.com",
-        "mega.co.nz"
+        "mega.co.nz",
+        "apple.com",
+        "appsto.re",
+        "apple-dns.net",
+        "icloud.com",
+        "icloud-content.com",
+        "ampaeservices.com",
+        "mzstatic.com"
+      ],
+      "domain_keyword": [
+        "apple",
+        "icloud"
       ]
     }
   ]
