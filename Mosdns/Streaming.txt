@@ -82,6 +82,9 @@ domain:mega.co.nz
 keyword:apple
 keyword:icloud
 domain:apple.com
+domain:appsto.re
+domain:apple-dns.net
 domain:icloud.com
+domain:icloud-content.com
 domain:ampaeservices.com
 domain:mzstatic.com
