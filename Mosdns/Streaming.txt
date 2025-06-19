@@ -79,3 +79,9 @@ domain:redditmedia.com
 domain:redditstatic.com
 domain:redditstaus.com
 domain:mega.co.nz
+keyword:apple
+keyword:icloud
+domain:apple.com
+domain:icloud.com
+domain:ampaeservices.com
+domain:mzstatic.com
