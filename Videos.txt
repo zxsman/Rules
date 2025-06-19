@@ -111,6 +111,9 @@ DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,mzstatic.com
