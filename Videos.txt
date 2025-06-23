@@ -120,3 +120,6 @@ DOMAIN-SUFFIX,mega.co.nz
 #DOMAIN-SUFFIX,icloud-content.com
 #DOMAIN-SUFFIX,ampaeservices.com
 #DOMAIN-SUFFIX,mzstatic.com
+#雜
+DOMAIN-SUFFIX,snmovie.com
+DOMAIN-SUFFIX,ypncdn.com
