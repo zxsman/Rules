@@ -123,3 +123,4 @@ DOMAIN-SUFFIX,mega.co.nz
 #雜
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
+DOMAIN-SUFFIX,hembed.com
