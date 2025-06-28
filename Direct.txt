@@ -26,7 +26,7 @@ DOMAIN-KEYWORD,cdnlz
 DOMAIN-SUFFIX,azureedge.net
 #DOMAIN-KEYWORD,phncdn
 #DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,hembed.com
+#DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 DOMAIN-SUFFIX,ahcdn.com
 #Mega
