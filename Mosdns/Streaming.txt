@@ -83,3 +83,4 @@ domain:redditstaus.com
 domain:mega.co.nz
 domain:snmovie.com
 domain:ypncdn.com
+domain:hembed.com
