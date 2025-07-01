@@ -88,6 +88,7 @@ DOMAIN-SUFFIX,x5img.com
 #視頻Gif
 DOMAIN-SUFFIX,gifyu.com
 #Cobalt
+DOMAIN-SUFFIX,cobalt.tools
 DOMAIN-SUFFIX,imput.net
 #Xvideos
 DOMAIN,cdn77-vid.xvideos-cdn.com
