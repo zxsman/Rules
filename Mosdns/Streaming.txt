@@ -64,6 +64,7 @@ domain:blr844.com
 domain:imagetwist.com
 domain:x5img.com
 domain:gifyu.com
+domain:cobalt.tools
 domain:imput.net
 full:cdn77-vid.xvideos-cdn.com
 full:gcore-vid.xvideos-cdn.com
