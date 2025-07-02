@@ -82,6 +82,13 @@ domain:redditmedia.com
 domain:redditstatic.com
 domain:redditstaus.com
 domain:mega.co.nz
+domain:tiktokv.com
+domain:tiktokv.us
+domain:tiktokcdn-us.com
+domain:tiktokcdn.com
+domain:pitaya-clientai.com
+domain:byteoversea.com
+domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
