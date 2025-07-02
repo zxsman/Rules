@@ -121,6 +121,14 @@ DOMAIN-SUFFIX,mega.co.nz
 #DOMAIN-SUFFIX,icloud-content.com
 #DOMAIN-SUFFIX,ampaeservices.com
 #DOMAIN-SUFFIX,mzstatic.com
+#Tiktok
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,pitaya-clientai.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
 #雜
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
