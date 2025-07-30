@@ -48,5 +48,3 @@ DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,sentry.io
-#鳴潮
-#DOMAIN,us-datareceiver.aki-game.net
