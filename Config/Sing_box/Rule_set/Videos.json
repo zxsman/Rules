@@ -74,11 +74,13 @@
         "imagetwist.com",
         "x5img.com",
         "gifyu.com",
+        "cobalt.tools",
         "imput.net",
         "surrit.com",
         "fivetiu.com",
         "sixyik.com",
         "etcbbg.xyz",
+        "phncdn.com",
         "redd.it",
         "reddit.com",
         "redditinc.com",
@@ -87,17 +89,19 @@
         "redditstatic.com",
         "redditstaus.com",
         "mega.co.nz",
-        "apple.com",
-        "appsto.re",
-        "apple-dns.net",
-        "icloud.com",
-        "icloud-content.com",
-        "ampaeservices.com",
-        "mzstatic.com"
+        "tiktokv.com",
+        "tiktokv.us",
+        "tiktokcdn-us.com",
+        "tiktokcdn.com",
+        "pitaya-clientai.com",
+        "byteoversea.com",
+        "ibytedtos.com",
+        "snmovie.com",
+        "ypncdn.com",
+        "hembed.com"
       ],
       "domain_keyword": [
-        "apple",
-        "icloud"
+        "phncdn"
       ]
     }
   ]
