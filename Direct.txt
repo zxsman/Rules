@@ -44,7 +44,7 @@ IP-CIDR,43.160.0.0/12,no-resolve
 IP-CIDR,124.156.0.0/16,no-resolve
 
 DOMAIN-SUFFIX,aki-game.com
-#DOMAIN-SUFFIX,aki-game.net
+DOMAIN-SUFFIX,aki-game.net
 DOMAIN-SUFFIX,aki-game2.net
 DOMAIN-SUFFIX,kurogame.com
 DOMAIN-SUFFIX,kurogame.net
