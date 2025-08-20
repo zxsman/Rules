@@ -291,6 +291,8 @@ DOMAIN-SUFFIX,aliyuncs.com
 #慢慢買
 IP-CIDR,124.70.0.0/23,no-resolve
 IP-CIDR,139.9.0.0/16,no-resolve
+#moddb
+DOMAIN-SUFFIX,dl.dbolical.com
 #Wechat
 IP-CIDR,101.32.0.0/16,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
@@ -360,3 +362,4 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
