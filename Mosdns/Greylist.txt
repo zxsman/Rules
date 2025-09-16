@@ -3,6 +3,8 @@ keyword:youtube
 keyword:bing
 keyword:microsoft
 keyword:github
+#Spotify
+domain:tospotify.com
 domain:spotify.com
 #Remote
 #Proxy
