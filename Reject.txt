@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,awaliwa.com
 
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,app-measurement.com
 
 DOMAIN,www.googletagservices.com
 DOMAIN,www-googletagmanager.l.google.com
