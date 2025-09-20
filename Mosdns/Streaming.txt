@@ -6,10 +6,10 @@ domain:lihkg.com
 domain:applvn.com
 domain:lih.kg
 #Spotify
-domain:tospotify.com
-domain:spotify.com
-domain:spotifycdn.com
-domain:scdn.co
+#domain:tospotify.com
+#domain:spotify.com
+#domain:spotifycdn.com
+#domain:scdn.co
 #Remote
 #Videos
 domain:ultramobile.com
@@ -102,3 +102,4 @@ domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
