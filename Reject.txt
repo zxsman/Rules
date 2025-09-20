@@ -5,7 +5,8 @@ DOMAIN-SUFFIX,awaliwa.com
 
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,app-analytics-services.com
-#DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,branch.io
 
 DOMAIN,www.googletagservices.com
 DOMAIN,www-googletagmanager.l.google.com
@@ -48,3 +49,4 @@ DOMAIN,ad-g.doubleclick.net
 DOMAIN,ad.doubleclick.net
 DOMAIN,2mdn.net
 DOMAIN,2975c.v.fwmrm.net
+
