@@ -19,7 +19,6 @@ DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alimama.com
-DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,bdydns.com
 DOMAIN-SUFFIX,biligame.com
@@ -46,7 +45,6 @@ DOMAIN-SUFFIX,qnydns.com
 DOMAIN-SUFFIX,reachmax.cn
 DOMAIN-SUFFIX,rtbasia.com
 DOMAIN-SUFFIX,tanx.com
-DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tdnsdl1.cn
 DOMAIN-SUFFIX,tdnsstic1.cn
 DOMAIN-SUFFIX,tdnsv5.com
