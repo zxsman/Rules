@@ -7,6 +7,7 @@ keyword:github
 #Proxy
 full:meowtaverse.io
 domain:ju1.cn
+domain:open.spotify.com
 full:account.xiaomi.com
 full:awsusor1.fds.api.xiaomi.com
 full:cdn.alsgp0.fds.api.mi-img.com
@@ -40,4 +41,3 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
-
