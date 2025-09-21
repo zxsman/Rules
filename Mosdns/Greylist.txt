@@ -3,6 +3,11 @@ keyword:youtube
 keyword:bing
 keyword:microsoft
 keyword:github
+#Spotify
+domain:tospotify.com
+domain:spotify.com
+domain:spotifycdn.com
+domain:scdn.co
 #Remote
 #Proxy
 full:meowtaverse.io
@@ -40,3 +45,4 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
+
