@@ -6,6 +6,7 @@ domain:lihkg.com
 domain:applvn.com
 domain:lih.kg
 #Spotify
+full:www.spotify.com
 full:open.spotify.com
 full:accounts.spotify.com
 full:login.spotify.com
@@ -105,3 +106,4 @@ domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
