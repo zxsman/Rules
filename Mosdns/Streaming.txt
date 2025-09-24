@@ -5,6 +5,8 @@ domain:whois.com
 domain:lihkg.com
 domain:applvn.com
 domain:lih.kg
+#Spotify
+full:open.spotify.com
 #Remote
 #Videos
 domain:ultramobile.com
@@ -97,4 +99,5 @@ domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
 
