@@ -24,6 +24,8 @@
       ],
       "domain_suffix": [
         "ju1.cn",
+        "api.spotify.com",
+        "clienttoken.spotify.com",
         "www.spotify.com",
         "open.spotify.com",
         "accounts.spotify.com",
