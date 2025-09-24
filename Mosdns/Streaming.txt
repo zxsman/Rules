@@ -6,14 +6,14 @@ domain:lihkg.com
 domain:applvn.com
 domain:lih.kg
 #Spotify
-full:api.spotify.com
-full:clienttoken.spotify.com
-full:www.spotify.com
-full:open.spotify.com
-full:accounts.spotify.com
-full:login.spotify.com
+#full:api.spotify.com
+#full:clienttoken.spotify.com
+#full:www.spotify.com
+#full:open.spotify.com
+#full:accounts.spotify.com
+#full:login.spotify.com
 #domain:tospotify.com
-#domain:spotify.com
+domain:spotify.com
 #domain:spotifycdn.com
 #domain:scdn.co
 #Remote
@@ -108,3 +108,4 @@ domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
