@@ -3,13 +3,6 @@ DOMAIN,meowtaverse.io
 #違禁詞審查
 DOMAIN-SUFFIX,ju1.cn
 #Spotify
-DOMAIN-SUFFIX,spotify.com
-#DOMAIN-SUFFIX,api.spotify.com
-#DOMAIN-SUFFIX,clienttoken.spotify.com
-#DOMAIN-SUFFIX,www.spotify.com
-#DOMAIN-SUFFIX,open.spotify.com
-#DOMAIN-SUFFIX,accounts.spotify.com
-#DOMAIN-SUFFIX,login.spotify.com
 #Tiktok
 #DOMAIN-SUFFIX,appsflyersdk.com
 #DOMAIN-SUFFIX,tiktokv.com
@@ -56,6 +49,7 @@ DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,sentry.io
+
 
 
 
