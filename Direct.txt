@@ -294,6 +294,7 @@ IP-CIDR,139.9.0.0/16,no-resolve
 #moddb
 DOMAIN-SUFFIX,dl.dbolical.com
 #Spotify
+DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,tospotify.com
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
@@ -367,5 +368,6 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
 
