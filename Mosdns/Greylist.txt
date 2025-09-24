@@ -12,6 +12,7 @@ domain:scdn.co
 #Proxy
 full:meowtaverse.io
 domain:ju1.cn
+domain:www.spotify.com
 domain:open.spotify.com
 domain:accounts.spotify.com
 domain:login.spotify.com
@@ -48,4 +49,3 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
-
