@@ -12,6 +12,7 @@ domain:scdn.co
 #Proxy
 full:meowtaverse.io
 domain:ju1.cn
+domain:api.spotify.com
 domain:clienttoken.spotify.com
 domain:www.spotify.com
 domain:open.spotify.com
