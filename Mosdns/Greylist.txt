@@ -12,7 +12,6 @@ domain:scdn.co
 #Proxy
 full:meowtaverse.io
 domain:ju1.cn
-domain:spotify.com
 full:account.xiaomi.com
 full:awsusor1.fds.api.xiaomi.com
 full:cdn.alsgp0.fds.api.mi-img.com
