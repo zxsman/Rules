@@ -65,15 +65,15 @@ DOMAIN-SUFFIX,jpshuntong.com
 DOMAIN-SUFFIX,hprtdata.com
 DOMAIN-SUFFIX,hprtupgrade.com
 #Apple
-#DOMAIN-KEYWORD,apple
-#DOMAIN-KEYWORD,icloud
-#DOMAIN-SUFFIX,apple.com
-#DOMAIN-SUFFIX,appsto.re
-#DOMAIN-SUFFIX,apple-dns.net
-#DOMAIN-SUFFIX,icloud.com
-#DOMAIN-SUFFIX,icloud-content.com
-#DOMAIN-SUFFIX,ampaeservices.com
-#DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple
+DOMAIN-KEYWORD,icloud
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,ampaeservices.com
+DOMAIN-SUFFIX,mzstatic.com
 #Binance
 DOMAIN-SUFFIX,pipecdn.vip
 #易名科技
@@ -368,6 +368,7 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
 
 
