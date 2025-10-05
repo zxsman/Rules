@@ -243,6 +243,9 @@ DOMAIN-SUFFIX,online-cmcc.cn
 DOMAIN-SUFFIX,tcloudbaseapp.com
 #中囯聯通
 IP-CIDR,202.108.0.0/16,no-resolve
+#中囯建設銀行
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,ccbft.com
 #雲閃付
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,95516.com
