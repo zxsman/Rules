@@ -13,6 +13,7 @@ domain:scdn.co
 #Remote
 #Proxy
 full:meowtaverse.io
+full:cdn.hk01.com
 domain:ju1.cn
 domain:open.spotify.com
 full:account.xiaomi.com
