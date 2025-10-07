@@ -3,6 +3,7 @@ keyword:youtube
 keyword:bing
 keyword:microsoft
 keyword:github
+domain:hk01.com
 #Spotify
 keyword:spotify
 domain:tospotify.com
