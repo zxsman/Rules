@@ -3,6 +3,9 @@ DOMAIN,meowtaverse.io
 DOMAIN,cdn.hk01.com
 #違禁詞審查
 DOMAIN-SUFFIX,ju1.cn
+#Suno
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
 #Spotify
 DOMAIN-SUFFIX,open.spotify.com
 #Tiktok
