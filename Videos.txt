@@ -129,7 +129,10 @@ DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,pitaya-clientai.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
+#Sora
+DOMAIN-SUFFIX,sora.com
 #雜
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
 DOMAIN-SUFFIX,hembed.com
+
