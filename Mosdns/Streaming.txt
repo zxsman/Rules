@@ -1,6 +1,8 @@
 keyword:googlevideo
 keyword:reddit
 domain:whois.com
+#Sora
+domain:sora.com
 #LIHKG
 domain:lihkg.com
 domain:applvn.com
@@ -99,3 +101,4 @@ domain:ibytedtos.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
