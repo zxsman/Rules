@@ -98,7 +98,7 @@ domain:tiktokcdn.com
 domain:pitaya-clientai.com
 domain:byteoversea.com
 domain:ibytedtos.com
+domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
-
