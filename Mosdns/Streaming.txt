@@ -1,6 +1,8 @@
 keyword:googlevideo
 keyword:reddit
 domain:whois.com
+#Uber
+domain:uber.com
 #Sora
 domain:sora.com
 #LIHKG
