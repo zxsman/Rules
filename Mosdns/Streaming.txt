@@ -2,7 +2,7 @@ keyword:googlevideo
 keyword:reddit
 domain:whois.com
 #Uber
-domain:uber.com
+#domain:uber.com
 #Sora
 domain:sora.com
 #LIHKG
@@ -104,3 +104,4 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
