@@ -17,8 +17,6 @@ domain:tospotify.com
 domain:spotify.com
 domain:spotifycdn.com
 domain:scdn.co
-#ニコニコ
-domain:nimg.jp
 
 #Remote
 #Videos
@@ -113,4 +111,5 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
 
