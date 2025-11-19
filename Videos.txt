@@ -73,7 +73,6 @@ DOMAIN-SUFFIX,rfa.org
 DOMAIN-SUFFIX,googlevideo.com
 #ニコニコ
 DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN,resource.video.nimg.jp
 #Rutube
 DOMAIN-SUFFIX,rutube.ru
 #GoogleEarth
@@ -136,5 +135,6 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
 DOMAIN-SUFFIX,hembed.com
+
 
 
