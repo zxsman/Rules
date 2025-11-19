@@ -73,6 +73,7 @@ domain:epochtimes.com
 domain:rfa.org
 domain:googlevideo.com
 domain:nicovideo.jp
+domain:nimg.jp
 domain:rutube.ru
 full:kh.google.com
 full:earth.google.com
@@ -111,5 +112,3 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
-
-
