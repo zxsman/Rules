@@ -72,7 +72,6 @@ domain:epochtimes.com
 domain:rfa.org
 domain:googlevideo.com
 domain:nicovideo.jp
-full:resource.video.nimg.jp
 domain:rutube.ru
 full:kh.google.com
 full:earth.google.com
