@@ -1,7 +1,6 @@
 keyword:google
 keyword:youtube
 keyword:bing
-keyword:microsoft
 keyword:github
 
 #Spotify
@@ -52,3 +51,4 @@ domain:deepseek.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
+
