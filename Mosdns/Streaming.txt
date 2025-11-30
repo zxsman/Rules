@@ -18,6 +18,13 @@ domain:tospotify.com
 domain:spotify.com
 domain:spotifycdn.com
 domain:scdn.co
+#Wechat
+domain:wechat.com
+domain:wechatapp.com
+domain:wechatlegal.net
+domain:wechatpay.cn
+domain:wechatpay.com
+domain:servicewechat.com
 
 #Remote
 #Videos
@@ -113,4 +120,5 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
 
