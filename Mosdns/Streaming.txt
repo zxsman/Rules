@@ -13,8 +13,6 @@ domain:lihkg.com
 domain:applvn.com
 domain:lih.kg
 #Spotify
-full:open.spotify.com
-
 keyword:spotify
 domain:tospotify.com
 domain:spotify.com
@@ -122,6 +120,7 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
 
 
 
