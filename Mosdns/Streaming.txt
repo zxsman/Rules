@@ -1,7 +1,9 @@
-keyword:microsoft
 keyword:googlevideo
 keyword:reddit
 domain:whois.com
+domain:microsoft.com
+domain:windowsupdate.com
+domain:windows.com
 #Uber
 #domain:uber.com
 #Sora
@@ -120,5 +122,6 @@ domain:sora.com
 domain:snmovie.com
 domain:ypncdn.com
 domain:hembed.com
+
 
 
