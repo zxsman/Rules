@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,azureedge.net
 #DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 DOMAIN-SUFFIX,ahcdn.com
+DOMAIN-SUFFIX,high1-playback.com
 #Mega
 #DOMAIN-SUFFIX,mega.co.nz
 #Nikke
@@ -375,3 +376,4 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
