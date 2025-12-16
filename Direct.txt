@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,antpcdn.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
+DOMAIN-SUFFIX,cdn.hailuoai.video
 #Edge空白頁
 DOMAIN,img-s-msn-com.akamaized.net
 #NAT類型檢測
@@ -376,4 +377,5 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
