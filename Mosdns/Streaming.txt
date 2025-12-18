@@ -1,4 +1,4 @@
-keyword:googlevideo
+domain:googlevideo.com
 keyword:reddit
 domain:whois.com
 domain:microsoft.com
@@ -25,6 +25,8 @@ domain:wechatlegal.net
 domain:wechatpay.cn
 domain:wechatpay.com
 domain:servicewechat.com
+#Duolingo
+domain:duolingo.com
 
 #Remote
 #Videos
