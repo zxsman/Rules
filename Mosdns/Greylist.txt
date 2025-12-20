@@ -40,7 +40,8 @@ domain:epicgamescdn.com
 domain:file.myqcloud.com
 domain:volces.com
 domain:deepseek.com
+domain:deepseeksvc.com
 domain:intercom.com
 domain:intercom.io
 domain:sentry.io
-domain:deepseeksvc.com
+domain:volccdn.com
