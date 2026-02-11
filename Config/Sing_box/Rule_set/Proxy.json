@@ -41,9 +41,11 @@
         "file.myqcloud.com",
         "volces.com",
         "deepseek.com",
+        "deepseeksvc.com",
         "intercom.com",
         "intercom.io",
-        "sentry.io"
+        "sentry.io",
+        "volccdn.com"
       ]
     }
   ]
