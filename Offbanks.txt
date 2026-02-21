@@ -9,7 +9,9 @@ DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,cdngslb.com
 DOMAIN-SUFFIX,cls.cn
 DOMAIN-SUFFIX,cmbwinglungbank.com
-#DOMAIN-SUFFIX,cncbinternational.com
+#Cncbinter
+DOMAIN-SUFFIX,cncbinternational.com
+
 DOMAIN-SUFFIX,codpayment.com
 DOMAIN-SUFFIX,dnse5.com
 DOMAIN-SUFFIX,etnet.com.hk
