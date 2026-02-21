@@ -11,6 +11,8 @@ DOMAIN-SUFFIX,cls.cn
 DOMAIN-SUFFIX,cmbwinglungbank.com
 #Cncbinter
 DOMAIN-SUFFIX,cncbinternational.com
+IP-CIDR,175.45.6.206/32,no-resolve
+IP-CIDR,175.45.6.207/32,no-resolve
 
 DOMAIN-SUFFIX,codpayment.com
 DOMAIN-SUFFIX,dnse5.com
