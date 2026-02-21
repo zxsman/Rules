@@ -132,9 +132,9 @@ DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 #Sora
 DOMAIN-SUFFIX,sora.com
-#Cncbinternational
-domain:cncbinternational.com
 #雜
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
 DOMAIN-SUFFIX,hembed.com
+#Anime1
+DOMAIN-SUFFIX,pwvideo.lolicdn.net
