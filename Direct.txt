@@ -17,8 +17,12 @@ DOMAIN,img-s-msn-com.akamaized.net
 IP-CIDR,17.0.0.0/8,no-resolve
 #NAT類型檢測
 DOMAIN-SUFFIX,natchecker.com
+
 #網站視頻
+#Anime1
+DOMAIN-SUFFIX,pwvideo.lolicdn.net
 DOMAIN-KEYWORD,v.anime
+
 DOMAIN-KEYWORD,iyhdm
 DOMAIN-SUFFIX,iyhdmm.com
 DOMAIN-SUFFIX,iyhdm.com
@@ -379,6 +383,7 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
 
 
