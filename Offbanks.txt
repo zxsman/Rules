@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,cmbwinglungbank.com
 DOMAIN-SUFFIX,cncbinternational.com
 IP-CIDR,175.45.6.206/32,no-resolve
 IP-CIDR,175.45.6.207/32,no-resolve
+IP-CIDR,202.85.28.197/32,no-resolve
 
 DOMAIN-SUFFIX,codpayment.com
 DOMAIN-SUFFIX,dnse5.com
