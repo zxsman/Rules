@@ -135,8 +135,10 @@ DOMAIN-SUFFIX,sora.com
 #雜
 DOMAIN-SUFFIX,snmovie.com
 DOMAIN-SUFFIX,ypncdn.com
-#DOMAIN-SUFFIX,hembed.com
 #Anime1
 #DOMAIN-SUFFIX,pwvideo.lolicdn.net
+#Hanime1
+#DOMAIN-SUFFIX,hembed.com
+DOMAIN-KEYWORD,vdownload
 
 
