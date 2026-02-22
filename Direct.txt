@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,natchecker.com
 #Anime1
 DOMAIN-SUFFIX,pwvideo.lolicdn.net
 DOMAIN-KEYWORD,v.anime
+#Hanime1
+DOMAIN-SUFFIX,hembed.com
 
 DOMAIN-KEYWORD,iyhdm
 DOMAIN-SUFFIX,iyhdmm.com
@@ -37,7 +39,6 @@ DOMAIN-KEYWORD,cdnlz
 DOMAIN-SUFFIX,azureedge.net
 #DOMAIN-KEYWORD,phncdn
 #DOMAIN-SUFFIX,phncdn.com
-#DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,high1-playback.com
@@ -383,6 +384,7 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
 
 
