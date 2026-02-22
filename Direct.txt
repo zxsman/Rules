@@ -23,7 +23,8 @@ DOMAIN-SUFFIX,natchecker.com
 DOMAIN-SUFFIX,pwvideo.lolicdn.net
 DOMAIN-KEYWORD,v.anime
 #Hanime1
-DOMAIN-SUFFIX,hembed.com
+#DOMAIN-SUFFIX,hembed.com
+DOMAIN-KEYWORD,vdownload-
 
 DOMAIN-KEYWORD,iyhdm
 DOMAIN-SUFFIX,iyhdmm.com
@@ -384,6 +385,7 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
+
 
 
 
