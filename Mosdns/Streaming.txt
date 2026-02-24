@@ -97,6 +97,7 @@ domain:cobalt.tools
 domain:imput.net
 full:cdn77-vid.xvideos-cdn.com
 full:gcore-vid.xvideos-cdn.com
+domain:surrit.com
 domain:fivetiu.com
 domain:sixyik.com
 domain:etcbbg.xyz
