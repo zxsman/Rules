@@ -28,7 +28,6 @@
         "cn.pool.ntp.org",
         "img-s-msn-com.akamaized.net",
         "crs.cr.adobe.com",
-        "cdnjs.cloudflare.com",
         "ipv6.music.163.com"
       ],
       "domain_suffix": [
@@ -145,9 +144,6 @@
         "v6.rocks",
         "106804.xyz",
         "nasdiyer.com",
-        "surrit.com",
-        "recombee.com",
-        "fourhoi.com",
         "odycdn.com",
         "126.net",
         "127.net",
