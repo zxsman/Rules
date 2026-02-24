@@ -95,7 +95,7 @@ DOMAIN-SUFFIX,imput.net
 DOMAIN,cdn77-vid.xvideos-cdn.com
 DOMAIN,gcore-vid.xvideos-cdn.com
 #MissAV
-#DOMAIN-SUFFIX,surrit.com
+DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,fivetiu.com
 DOMAIN-SUFFIX,sixyik.com
 DOMAIN-SUFFIX,etcbbg.xyz
@@ -140,5 +140,6 @@ DOMAIN-SUFFIX,ypncdn.com
 #Hanime1
 #DOMAIN-SUFFIX,hembed.com
 DOMAIN-KEYWORD,vdownload
+
 
 
