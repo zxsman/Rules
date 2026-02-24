@@ -28,6 +28,7 @@
         "cn.pool.ntp.org",
         "img-s-msn-com.akamaized.net",
         "crs.cr.adobe.com",
+        "cdnjs.cloudflare.com",
         "ipv6.music.163.com"
       ],
       "domain_suffix": [
