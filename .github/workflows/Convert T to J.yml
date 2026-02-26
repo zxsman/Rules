@@ -1,10 +1,12 @@
-name: Convert Text Files to JSON
+name: Convert Text to JSON
 
 on:
   push:
     branches:
-      - main  # 触发工作流的分支，可以根据需要修改
-      - '*.txt'  # 只在根目錄下的 .txt 文件發生變更時觸發
+      - main
+    paths:
+      - '/*.txt'
+      - '!**/*.txt'
 
 jobs:
   convert:
