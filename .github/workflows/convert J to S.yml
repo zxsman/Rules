@@ -43,8 +43,8 @@ jobs:
       - name: Convert JSON to SRS
         run: |
           find Config/Sing_box/Rule_set -type f -name "*.json" ! -name "config.json" | while read -r json_file; do
-            filename=$(basename "$json_file" .json)
-            sing-box rule-set compile --output "${filename}.srs" "$json_file"
+            out="${json_file%.json}.srs"
+            sing-box rule-set compile --output "$out" "$json_file"
           done        
 
       - name: Commit SRS files
