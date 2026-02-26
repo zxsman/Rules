@@ -5,11 +5,11 @@
       "domain": [
         "www.youtube.com",
         "s.youtube.com",
-        "youtubei.googleapis.com",
-        "play.googleapis.com"
+        "youtubei.googleapis.com"
       ],
       "domain_suffix": [
-        "googlevideo.com"
+        "googlevideo.com",
+        "googleapis.com"
       ]
     }
   ]
