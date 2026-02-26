@@ -2,4 +2,4 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN,www.youtube.com
 DOMAIN,s.youtube.com
 DOMAIN,youtubei.googleapis.com
-DOMAIN,play.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
