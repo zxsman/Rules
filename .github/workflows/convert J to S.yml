@@ -1,0 +1,57 @@
+name: Convert JSON to SRS
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Config/Sing_box/Rule_set/**'      
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'Config/Sing_box/Rule_set/**'      
+
+jobs:
+  convert-json-to-srs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install sing-box (latest)
+        run: |
+          set -e
+
+          # 获取最新版本 tag
+          LATEST_TAG=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | jq -r .tag_name)
+          echo "Latest sing-box version: $LATEST_TAG"
+
+          # 下载并解压
+          wget https://github.com/SagerNet/sing-box/releases/download/${LATEST_TAG}/sing-box-${LATEST_TAG#v}-linux-amd64.tar.gz
+          tar -xzf sing-box-${LATEST_TAG#v}-linux-amd64.tar.gz
+
+          # 安装到系统路径
+          sudo mv sing-box-${LATEST_TAG#v}-linux-amd64/sing-box /usr/local/bin/
+          sing-box version
+
+          # 清理文件
+          rm -rf sing-box-${LATEST_TAG#v}-linux-amd64*
+
+      - name: Convert JSON to SRS
+        run: |
+          find . -type f -name "*.json" ! -name "config.json" | while read -r json_file; do
+            filename=$(basename "$json_file" .json)
+            sing-box rule-set compile --output "${filename}.srs" "$json_file"
+          done
+
+      - name: Commit SRS files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.srs
+          git commit -m "Add compiled .srs files" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
