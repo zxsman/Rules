@@ -11,6 +11,7 @@ on:
       - main
     paths:
       - 'Config/Sing_box/Rule_set/**'      
+  workflow_dispatch:
 
 jobs:
   convert-json-to-srs:
