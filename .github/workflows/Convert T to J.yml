@@ -7,6 +7,7 @@ on:
     paths:
       - '/*.txt'
       - '!**/*/*.txt'
+  workflow_dispatch:    
 
 jobs:
   convert:
