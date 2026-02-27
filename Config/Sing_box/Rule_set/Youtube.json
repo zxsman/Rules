@@ -5,15 +5,10 @@
       "domain": [
         "www.youtube.com",
         "s.youtube.com",
-        "youtubei.googleapis.com",
-        "suggestqueries.google.com"
+        "youtubei.googleapis.com"
       ],
       "domain_suffix": [
-        "googlevideo.com",
-        "googleapis.com",
-        "ytimg.com",
-        "ggpht.com",
-        "googleusercontent.com"
+        "googlevideo.com"
       ]
     }
   ]
