@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,antpcdn.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
+DOMAIN,api.unsplash.com
 #Edge空白頁
 DOMAIN,img-s-msn-com.akamaized.net
 #Apple
