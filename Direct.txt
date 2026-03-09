@@ -331,6 +331,7 @@ IP-CIDR,43.156.0.0/16,no-resolve
 IP-CIDR,47.74.0.0/15,no-resolve
 IP-CIDR,47.76.0.0/14,no-resolve
 IP-CIDR,47.80.0.0/13,no-resolve
+IP-CIDR,43.153.192.0/18,no-resolve
 
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alikunlun.com
@@ -391,16 +392,3 @@ DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,yundunwaf2.com
 DOMAIN-SUFFIX,zijieapi.com
-
-
-
-
-
-
-
-
-
-
-
-
-
