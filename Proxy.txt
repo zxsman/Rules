@@ -4,6 +4,7 @@ DOMAIN,cdn.hk01.com
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
+DOMAIN-SUFFIX,imyfoneeeeeeeeeeeeeeee.com
 #違禁詞審查
 DOMAIN-SUFFIX,ju1.cn
 #Suno
