@@ -6,7 +6,8 @@ keyword:github
 #Proxy
 full:meowtaverse.io
 full:cdn.hk01.com
-full:images.imyfone.com
+domain:topmediai.com
+domain:imyfone.com
 domain:ju1.cn
 domain:suno.ai
 domain:suno.com
