@@ -6,8 +6,8 @@ on:
     branches:
       - main
     paths:
-      - '/*.txt'
-#      - '!**/*/*.txt'    
+      - /*.txt
+      - !**/*/*.txt    
 
 jobs:
   convert:
