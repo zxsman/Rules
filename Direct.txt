@@ -45,6 +45,9 @@ DOMAIN-SUFFIX,play.xluuss.com
 DOMAIN-SUFFIX,hn.bfvvs.com
 DOMAIN-SUFFIX,hd.ijycnd.com
 DOMAIN-SUFFIX,bfikuncdn.com
+#.ts
+DOMAIN-SUFFIX,gs.gszyi.com
+
 #Anime1
 DOMAIN-SUFFIX,pwvideo.lolicdn.net
 DOMAIN-KEYWORD,v.anime
