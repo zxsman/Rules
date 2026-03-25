@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,hd.ijycnd.com
 DOMAIN-SUFFIX,bfikuncdn.com
 #.ts
 DOMAIN-SUFFIX,gs.gszyi.com
+DOMAIN-SUFFIX,c.baisiweiting.com
 
 #Anime1
 DOMAIN-SUFFIX,pwvideo.lolicdn.net
