@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'Config/Sing_box/Rule_set/**'
+      - '/Config/Sing_box/Rule_set/**'
   workflow_dispatch:
 
 jobs:
