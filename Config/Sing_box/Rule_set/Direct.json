@@ -32,7 +32,6 @@
         "img-s-msn-com.akamaized.net",
         "crs.cr.adobe.com",
         "ipv6.music.163.com",
-        "1d.tlu.dl.delivery.mp.microsoft.com",
         "ctldl.windowsupdate.com"
       ],
       "domain_suffix": [
@@ -254,6 +253,7 @@
         "spotify.com",
         "spotifycdn.com",
         "scdn.co",
+        "mp.microsoft.com",
         "alicdn.com",
         "alikunlun.com",
         "apic.cn",
