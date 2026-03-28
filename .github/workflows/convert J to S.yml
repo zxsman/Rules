@@ -7,6 +7,11 @@ on:
       - main
     paths:
       - 'Config/Sing_box/Rule_set/*.json'
+  pull_request:
+    branches:
+      - main  
+    paths:
+      - 'Config/Sing_box/Rule_set/*.json'
 
 jobs:
   convert-json-to-srs:
