@@ -347,7 +347,7 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 #Windows Update
-DOMAIN,1d.tlu.dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,mp.microsoft.com
 DOMAIN,ctldl.windowsupdate.com
 #Wechat
 IP-CIDR,101.32.0.0/16,no-resolve
