@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'Config/Sing_box/Rule_set/**'
+      - 'Config/Sing_box/Rule_set/*.json'
 
 jobs:
   convert-json-to-srs:
