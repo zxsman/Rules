@@ -348,7 +348,8 @@ DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 #Windows Update
 DOMAIN-SUFFIX,mp.microsoft.com
-DOMAIN,ctldl.windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,update.microsoft.com
 #Wechat
 IP-CIDR,101.32.0.0/16,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
