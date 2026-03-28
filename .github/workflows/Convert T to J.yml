@@ -7,7 +7,6 @@ on:
       - main
     paths:
       - '*.txt'
-#      - !**/*/*.txt    
 
 jobs:
   convert:
