@@ -20,19 +20,24 @@ DOMAIN-SUFFIX,dnse5.com
 DOMAIN-SUFFIX,etnet.com.hk
 DOMAIN-SUFFIX,fundsupermart.com
 DOMAIN-SUFFIX,gowallet.com.hk
+
+#HSBC
 DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,lpsnmedia.net
+DOMAIN-SUFFIX,optimizely.com
+DOMAIN-SUFFIX,vamhk.cloud1.vv1865.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,online-metrix.net
+
 DOMAIN-SUFFIX,icbc.com.cn
 DOMAIN-SUFFIX,ifastgb.com
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,marmot-cloud.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,shifen.com
 DOMAIN-SUFFIX,tapngo.com.hk
-DOMAIN-SUFFIX,vv1865.com
 DOMAIN-SUFFIX,yundzh.com
 
 #ZABANK
@@ -48,6 +53,5 @@ DOMAIN-SUFFIX,ocbc.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobedc.net
 DOMAIN-SUFFIX,demdex.net
-DOMAIN-SUFFIX,online-metrix.net
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,qualtrics.com
