@@ -70,7 +70,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add Config/Sing_box/Rule_set/*.json
+          git add *.json
           git commit -m "Update JSON files from .txt files"
           git push
         env:
