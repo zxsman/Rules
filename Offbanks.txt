@@ -34,6 +34,8 @@ DOMAIN-SUFFIX,shifen.com
 DOMAIN-SUFFIX,tapngo.com.hk
 DOMAIN-SUFFIX,vv1865.com
 DOMAIN-SUFFIX,yundzh.com
+
+#ZABANK
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zafinsvc.com
 DOMAIN-SUFFIX,zajourney.com
