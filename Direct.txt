@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
 #DOMAIN-SUFFIX,jiangtheone.com
+#得物
+DOMAIN-SUFFIX,dewu.com
 #Unsplash
 DOMAIN,images.unsplash.com
 DOMAIN,api.unsplash.com
