@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
 #DOMAIN-SUFFIX,jiangtheone.com
 #Github
-DOMAIN,raw.githubusercontent.com
+#DOMAIN,raw.githubusercontent.com
 #IP相關
 DOMAIN-SUFFIX,ipapi.co
 #得物
