@@ -27,6 +27,7 @@
       ],
       "domain": [
         "cn.pool.ntp.org",
+        "raw.githubusercontent.com",
         "images.unsplash.com",
         "api.unsplash.com",
         "img-s-msn-com.akamaized.net",
