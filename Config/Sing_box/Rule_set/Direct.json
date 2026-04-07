@@ -32,8 +32,7 @@
         "api.unsplash.com",
         "img-s-msn-com.akamaized.net",
         "crs.cr.adobe.com",
-        "ipv6.music.163.com",
-        "client.wns.windows.com"
+        "ipv6.music.163.com"
       ],
       "domain_suffix": [
         "bcbits.com",
@@ -256,6 +255,7 @@
         "spotify.com",
         "spotifycdn.com",
         "scdn.co",
+        "wns.windows.com",
         "mp.microsoft.com",
         "windowsupdate.com",
         "update.microsoft.com",
