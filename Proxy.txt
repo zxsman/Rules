@@ -1,6 +1,7 @@
 #少數網站
 DOMAIN,meowtaverse.io
 DOMAIN,cdn.hk01.com
+DOMAIN-SUFFIX,movieffm.net
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
