@@ -140,6 +140,6 @@ DOMAIN-SUFFIX,ypncdn.com
 #Hanime1
 #DOMAIN-SUFFIX,hembed.com
 DOMAIN-KEYWORD,vdownload
-
-
+#Arc
+DOMAIN-SUFFIX,arc.net
 
