@@ -50,3 +50,5 @@ DOMAIN,ad.doubleclick.net
 DOMAIN,2mdn.net
 DOMAIN,2975c.v.fwmrm.net
 
+#Avira vpn
+DOMAIN,api.phantom.avira-vpn.com
