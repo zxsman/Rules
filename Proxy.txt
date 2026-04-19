@@ -2,6 +2,7 @@
 DOMAIN,meowtaverse.io
 DOMAIN,cdn.hk01.com
 DOMAIN-SUFFIX,movieffm.net
+DOMAIN-SUFFIX,anime1.pw
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
