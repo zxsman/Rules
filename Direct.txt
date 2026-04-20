@@ -12,8 +12,6 @@ DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
 #DOMAIN-SUFFIX,jiangtheone.com
-#高德地圖
-DOMAIN-SUFFIX,autonavi.com
 #Github
 #DOMAIN,raw.githubusercontent.com
 #IP相關
