@@ -19,7 +19,6 @@ full:awsusor1.fds.api.xiaomi.com
 full:cdn.alsgp0.fds.api.mi-img.com
 full:cdn.web-global.fds.api.mi-img.com
 full:c.mi.com
-full:dispatcher.is.autonavi.com
 full:region.hlth.io.mi.com
 full:sg.api.io.mi.com
 full:sg.hlth.io.mi.com
