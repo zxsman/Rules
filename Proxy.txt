@@ -28,7 +28,7 @@ DOMAIN,awsusor1.fds.api.xiaomi.com
 DOMAIN,cdn.alsgp0.fds.api.mi-img.com
 DOMAIN,cdn.web-global.fds.api.mi-img.com
 DOMAIN,c.mi.com
-DOMAIN,dispatcher.is.autonavi.com
+#DOMAIN,dispatcher.is.autonavi.com
 DOMAIN,region.hlth.io.mi.com
 DOMAIN,sg.api.io.mi.com
 DOMAIN,sg.hlth.io.mi.com
