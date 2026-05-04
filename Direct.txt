@@ -76,6 +76,8 @@ DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,nqfztcddi2yh.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,high1-playback.com
+#xHamster
+DOMAIN-SUFFIX,video-cf.xhcdn.com
 #Mega
 #DOMAIN-SUFFIX,mega.co.nz
 #Nikke
