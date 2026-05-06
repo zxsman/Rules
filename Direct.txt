@@ -119,6 +119,8 @@ DOMAIN-SUFFIX,wetest.net
 DOMAIN-SUFFIX,geetest.com
 #DOMAIN-SUFFIX,app-analytics-services.com
 #DOMAIN-SUFFIX,appsflyersdk.com
+#異環
+DOMAIN-SUFFIX,perfectworld.com
 #順通轉運
 DOMAIN-SUFFIX,jpshuntong.net
 DOMAIN-SUFFIX,jpshuntong.com
