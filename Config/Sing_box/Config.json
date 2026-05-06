@@ -47,7 +47,6 @@
 			{
 				"rule_set": [
 					"cnsite",
-					"alipay",
 					"gitdirect",
 					"offbanks",
 					"rednote"
@@ -154,7 +153,6 @@
 				"rule_set": [
 					"cnip",
 					"cnsite",
-					"alipay",
 					"gitdirect",
 					"offbanks",
 					"rednote"
@@ -182,13 +180,6 @@
 				"tag": "video",
 				"format": "source",
 				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Videos.json",
-				"download_detour": "自動選擇"
-			},
-			{
-				"type": "remote",
-				"tag": "alipay",
-				"format": "source",
-				"url": "https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Config/Sing_box/Rule_set/Alipay.json",
 				"download_detour": "自動選擇"
 			},
 			{
