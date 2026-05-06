@@ -238,7 +238,6 @@ rules:
   - RULE-SET,BanProgramAD,REJECT
   - RULE-SET,ChinaCompanyIp,DIRECT
   - RULE-SET,ChinaIp,DIRECT
-  - RULE-SET,Alipay,DIRECT
   - RULE-SET,Rednote,DIRECT
   - RULE-SET,Offbanks,DIRECT
   - GEOIP,LAN,DIRECT,no-resolve
@@ -305,11 +304,6 @@ rule-providers:
     format: text
     interval: 600
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-  Alipay:
-    behavior: classical
-    format: text
-    interval: 600
-    url: https://raw.githubusercontent.com/zxsman/Rules/refs/heads/main/Alipay.txt
   Rednote:
     behavior: classical
     format: text
