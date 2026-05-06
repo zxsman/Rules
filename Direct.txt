@@ -12,6 +12,16 @@ DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
 #DOMAIN-SUFFIX,jiangtheone.com
+#Alipay
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,pcidata.cn
+DOMAIN-SUFFIX,shujupie.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tbcache.com
 #Github
 #DOMAIN,raw.githubusercontent.com
 #IP相關
