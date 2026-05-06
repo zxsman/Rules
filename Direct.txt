@@ -78,6 +78,8 @@ DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,high1-playback.com
 #xHamster
 DOMAIN-SUFFIX,video-cf.xhcdn.com
+#########網站視頻
+
 #Mega
 #DOMAIN-SUFFIX,mega.co.nz
 #Nikke
