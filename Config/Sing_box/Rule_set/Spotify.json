@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "tospotify.com",
+        "spotify.com",
+        "spotifycdn.com",
+        "scdn.co"
+      ],
+      "domain_keyword": [
+        "spotify"
+      ]
+    }
+  ]
+}

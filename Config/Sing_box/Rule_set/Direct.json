@@ -262,10 +262,6 @@
         "aihuishou.com",
         "aliyuncs.com",
         "dl.dbolical.com",
-        "tospotify.com",
-        "spotify.com",
-        "spotifycdn.com",
-        "scdn.co",
         "wns.windows.com",
         "mp.microsoft.com",
         "windowsupdate.com",
@@ -352,8 +348,7 @@
         "music.163.com",
         "163.com",
         "netease.im",
-        "yunxinfw.com",
-        "spotify"
+        "yunxinfw.com"
       ]
     }
   ]
