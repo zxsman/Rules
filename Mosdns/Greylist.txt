@@ -13,7 +13,6 @@ domain:imyfone.com
 domain:ju1.cn
 domain:suno.ai
 domain:suno.com
-domain:open.spotify.com
 full:account.xiaomi.com
 full:awsusor1.fds.api.xiaomi.com
 full:cdn.alsgp0.fds.api.mi-img.com
