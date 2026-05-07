@@ -11,8 +11,10 @@ DOMAIN-SUFFIX,ju1.cn
 #Suno
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
+
 #Spotify
-DOMAIN-SUFFIX,open.spotify.com
+#DOMAIN-SUFFIX,open.spotify.com
+
 #Tiktok
 #DOMAIN-SUFFIX,appsflyersdk.com
 #DOMAIN-SUFFIX,tiktokv.com
