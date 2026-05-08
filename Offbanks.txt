@@ -1,4 +1,10 @@
+#象象銀行
 DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,elebank.com
+DOMAIN-SUFFIX,my-imcloud.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alipay.com
@@ -35,7 +41,6 @@ DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,marmot-cloud.com
 DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,shifen.com
 DOMAIN-SUFFIX,tapngo.com.hk
 DOMAIN-SUFFIX,yundzh.com
