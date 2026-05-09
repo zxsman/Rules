@@ -1,4 +1,6 @@
 DOMAIN,android.bugly.qq.com
+DOMAIN,h.trace.qq.com
+
 DOMAIN-SUFFIX,745vb.top
 DOMAIN-SUFFIX,yyyrkjgs.com
 DOMAIN-SUFFIX,sooyooj.com
