@@ -4,6 +4,7 @@
     {
       "domain": [
         "android.bugly.qq.com",
+        "h.trace.qq.com",
         "www.googletagservices.com",
         "www-googletagmanager.l.google.com",
         "www-google-analytics.l.google.com",
