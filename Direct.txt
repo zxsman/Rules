@@ -122,6 +122,9 @@ DOMAIN-SUFFIX,geetest.com
 #異環
 DOMAIN-SUFFIX,perfectworld.com
 DOMAIN-SUFFIX,pwsdk.com
+IP-CIDR,34.110.242.50/32,no-resolve
+IP-CIDR,34.180.122.112/32,no-resolve
+IP-CIDR,35.190.229.83/32,no-resolve
 #順通轉運
 DOMAIN-SUFFIX,jpshuntong.net
 DOMAIN-SUFFIX,jpshuntong.com
