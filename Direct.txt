@@ -120,8 +120,9 @@ DOMAIN-SUFFIX,geetest.com
 #DOMAIN-SUFFIX,app-analytics-services.com
 #DOMAIN-SUFFIX,appsflyersdk.com
 #異環
-DOMAIN-SUFFIX,perfectworld.com
 DOMAIN-SUFFIX,pwsdk.com
+DOMAIN-SUFFIX,perfectworld.com
+DOMAIN-SUFFIX,bc.googleusercontent.com
 IP-CIDR,34.110.242.50/32,no-resolve
 IP-CIDR,34.146.153.122/32,no-resolve
 IP-CIDR,34.180.122.112/32,no-resolve
