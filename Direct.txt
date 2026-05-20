@@ -385,6 +385,11 @@ DOMAIN-SUFFIX,wns.windows.com
 DOMAIN-SUFFIX,mp.microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,update.microsoft.com
+
+#快手
+DOMAIN-SUFFIX,kuaishouzt.com
+#字節
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 #Soul
 DOMAIN-SUFFIX,volccdn.com
 #Wechat
