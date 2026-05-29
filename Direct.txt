@@ -145,6 +145,7 @@ DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,mzstatic.com
 #Binance
