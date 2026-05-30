@@ -12,7 +12,6 @@ DOMAIN,cdn-api-auth.zztfly.com
 DOMAIN,api-auth.zztfly.com
 DOMAIN-SUFFIX,tdnsstic1.cn
 DOMAIN-SUFFIX,miaozhen.com
-DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alimama.com
