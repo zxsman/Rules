@@ -1,7 +1,6 @@
 DOMAIN-KEYWORD,xhscdn
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
-DOMAIN,sns-avatar-qc.xhscdn.com
 DOMAIN-KEYWORD,xiaohongshu
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-KEYWORD,zztfly
@@ -11,9 +10,7 @@ DOMAIN,cfgc.zztfly.com
 DOMAIN,log-auth.zztfly.com
 DOMAIN,cdn-api-auth.zztfly.com
 DOMAIN,api-auth.zztfly.com
-DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,tdnsstic1.cn
-DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,fengkongcloud.com
