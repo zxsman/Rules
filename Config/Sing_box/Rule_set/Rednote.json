@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "sns-avatar-qc.xhscdn.com",
         "upc.zztfly.com",
         "cfgc.zztfly.com",
         "log-auth.zztfly.com",
@@ -15,11 +14,8 @@
         "xhscdn.net",
         "xiaohongshu.com",
         "zztfly.com",
-        "alidns.com",
         "tdnsstic1.cn",
-        "qq.com",
         "miaozhen.com",
-        "doh.pub",
         "fengkongcloud.com",
         "alibaba.com",
         "alimama.com",
