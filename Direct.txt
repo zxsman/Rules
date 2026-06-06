@@ -390,6 +390,7 @@ DOMAIN-SUFFIX,update.microsoft.com
 
 #快手
 DOMAIN-SUFFIX,kuaishouzt.com
+DOMAIN-SUFFIX,kwaizt.com
 #字節
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 #Soul
