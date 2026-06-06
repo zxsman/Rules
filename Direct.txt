@@ -1,5 +1,6 @@
 #少數網站
 DOMAIN,cn.pool.ntp.org
+DOMAIN-KEYWORD,httpdns
 DOMAIN-SUFFIX,bcbits.com
 DOMAIN-SUFFIX,shodan.io
 DOMAIN-SUFFIX,whois.com
