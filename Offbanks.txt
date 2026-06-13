@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,yundzh.com
 
 #ZABANK
 DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zainvest.group
 DOMAIN-SUFFIX,zafinsvc.com
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zaticdn.com
