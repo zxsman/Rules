@@ -395,6 +395,7 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 #Soul
 DOMAIN-SUFFIX,volccdn.com
 #Wechat
+IP-ASN, AS132203
 IP-CIDR,101.32.0.0/16,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,43.129.192.0/18,no-resolve
