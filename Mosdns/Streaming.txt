@@ -1,6 +1,7 @@
 domain:googlevideo.com
 keyword:reddit
 domain:whois.com
+keyword:bing
 domain:microsoft.com
 domain:windowsupdate.com
 domain:windows.com
