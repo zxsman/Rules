@@ -3,6 +3,7 @@ DOMAIN,meowtaverse.io
 DOMAIN,cdn.hk01.com
 DOMAIN-SUFFIX,movieffm.net
 DOMAIN-SUFFIX,anime1.pw
+DOMAIN-SUFFIX,duolingo.cn
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
@@ -11,10 +12,6 @@ DOMAIN-SUFFIX,ju1.cn
 #Suno
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
-
-#Spotify
-#DOMAIN-SUFFIX,open.spotify.com
-
 #Tiktok
 #DOMAIN-SUFFIX,appsflyersdk.com
 #DOMAIN-SUFFIX,tiktokv.com
