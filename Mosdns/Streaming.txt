@@ -27,7 +27,6 @@ domain:wechatpay.cn
 domain:wechatpay.com
 domain:servicewechat.com
 #Duolingo
-domain:duolingo.cn
 domain:duolingo.com
 
 #Remote
