@@ -382,10 +382,10 @@ DOMAIN-SUFFIX,dl.dbolical.com
 #DOMAIN-SUFFIX,scdn.co
 
 #Windows Update
-DOMAIN-SUFFIX,wns.windows.com
-DOMAIN-SUFFIX,mp.microsoft.com
-DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,update.microsoft.com
+#DOMAIN-SUFFIX,wns.windows.com
+#DOMAIN-SUFFIX,mp.microsoft.com
+#DOMAIN-SUFFIX,windowsupdate.com
+#DOMAIN-SUFFIX,update.microsoft.com
 
 #快手
 DOMAIN-SUFFIX,kuaishouzt.com
