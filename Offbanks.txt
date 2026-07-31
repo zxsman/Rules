@@ -28,12 +28,14 @@ DOMAIN-SUFFIX,fundsupermart.com
 DOMAIN-SUFFIX,gowallet.com.hk
 
 #HSBC
+DOMAIN-KEYWORD,hsbc.edge
 DOMAIN-SUFFIX,hsbc.com.hk
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,vamhk.cloud1.vv1865.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,we-stats.com
 
 DOMAIN-SUFFIX,icbc.com.cn
 DOMAIN-SUFFIX,ifastgb.com
