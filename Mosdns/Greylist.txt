@@ -17,6 +17,8 @@ domain:suno.com
 full:api.io.mi.com
 full:hlth.io.mi.com
 full:watch.iot.mi.com
+full:hlth.xiaomiwear.com
+full:atlas.nr.mi.com
 full:account.xiaomi.com
 domain:ai.xiaomi.com
 full:awsusor1.fds.api.xiaomi.com
