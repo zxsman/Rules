@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,suno.com
 DOMAIN,api.io.mi.com
 DOMAIN,hlth.io.mi.com
 DOMAIN,watch.iot.mi.com
+DOMAIN,hlth.xiaomiwear.com
+DOMAIN,atlas.nr.mi.com
 
 DOMAIN,account.xiaomi.com
 DOMAIN-SUFFIX,ai.xiaomi.com
