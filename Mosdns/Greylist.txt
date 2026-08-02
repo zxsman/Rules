@@ -47,3 +47,4 @@ domain:intercom.com
 domain:intercom.io
 domain:sentry.io
 domain:volccdn.com
+domain:moomoo.com
