@@ -62,3 +62,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,volccdn.com
 #Moomoo
 DOMAIN-SUFFIX,moomoo.com
+#Futunn
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,futufin.com
