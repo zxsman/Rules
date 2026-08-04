@@ -48,3 +48,6 @@ domain:intercom.io
 domain:sentry.io
 domain:volccdn.com
 domain:moomoo.com
+domain:futunn.com
+domain:futustatic.com
+domain:futufin.com
