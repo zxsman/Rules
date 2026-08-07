@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,antpcdn.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
-#DOMAIN-SUFFIX,jiangtheone.com
+DOMAIN-SUFFIX,hrbpaw.com
 #Alipay
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
