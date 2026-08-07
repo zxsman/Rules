@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,scdsjzx.com
 DOMAIN-SUFFIX,cdn.hailuoai.video
 DOMAIN-SUFFIX,hrbpaw.com
+DOMAIN-KEYWORD,heros-download
 #Alipay
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
