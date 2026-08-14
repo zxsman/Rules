@@ -72,7 +72,7 @@ DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,rutube.ru
 #GoogleEarth
 DOMAIN,kh.google.com
-DOMAIN,earth.google.com
+#DOMAIN,earth.google.com
 DOMAIN,streetviewpixels-pa.googleapis.com
 #論壇
 DOMAIN-SUFFIX,sexinsex.net
