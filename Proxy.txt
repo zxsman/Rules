@@ -4,7 +4,9 @@ DOMAIN,cdn.hk01.com
 DOMAIN-SUFFIX,movieffm.net
 DOMAIN-SUFFIX,anime1.pw
 DOMAIN-SUFFIX,duolingo.cn
+#Google
 DOMAIM-SUFFIX,gstatic.com
+DOMAIM-SUFFIX,googleapis.com
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
