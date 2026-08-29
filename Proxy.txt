@@ -5,8 +5,8 @@ DOMAIN-SUFFIX,movieffm.net
 DOMAIN-SUFFIX,anime1.pw
 DOMAIN-SUFFIX,duolingo.cn
 #Apple
-#DOMAIN,apps.apple.com
-#DOMAIN,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
 #Google
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
