@@ -9,8 +9,6 @@ full:cdn.hk01.com
 domain:movieffm.net
 domain:anime1.pw
 domain:duolingo.cn
-full:apps.apple.com
-full:itunes.apple.com
 domain:gstatic.com
 domain:googleapis.com
 domain:i.pki.goog
