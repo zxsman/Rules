@@ -81,3 +81,7 @@ domain:ypncdn.com
 domain:3dporn.com.es
 keyword:vdownload
 domain:arc.net
+domain:chatgpt.com
+domain:openai.com
+domain:us.sentry.io
+domain:oaistatic.com
