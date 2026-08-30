@@ -138,4 +138,7 @@ DOMAIN-KEYWORD,vdownload
 #Arc
 DOMAIN-SUFFIX,arc.net
 #ChatGPT
-
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,us.sentry.io
+DOMAIN-SUFFIX,oaistatic.com
