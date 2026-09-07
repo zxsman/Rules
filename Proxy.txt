@@ -73,3 +73,5 @@ DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,futufin.com
+#長橋
+DOMAIN-SUFFIX,lbkrs.com
