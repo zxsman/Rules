@@ -56,3 +56,4 @@ domain:moomoo.com
 domain:futunn.com
 domain:futustatic.com
 domain:futufin.com
+domain:lbkrs.com
