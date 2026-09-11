@@ -2,6 +2,7 @@ keyword:google
 keyword:youtube
 keyword:github
 keyword:yahoo
+domain:qpic.cn
 #Remote
 #Proxy
 full:meowtaverse.io
