@@ -26,6 +26,7 @@ domain:wechatlegal.net
 domain:wechatpay.cn
 domain:wechatpay.com
 domain:servicewechat.com
+domain:qpic.cn
 #Duolingo
 domain:duolingo.com
 
