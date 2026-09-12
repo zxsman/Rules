@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,cdn.hailuoai.video
 DOMAIN-SUFFIX,hrbpaw.com
 DOMAIN-KEYWORD,heros-download
 DOMAIN-SUFFIX,nwmtfw.com
+DOMAIN-SUFFIX,ytcontent.com
 #Alipay
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
