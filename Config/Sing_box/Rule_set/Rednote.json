@@ -2,20 +2,20 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "upc.zztfly.com",
-        "cfgc.zztfly.com",
-        "log-auth.zztfly.com",
-        "cdn-api-auth.zztfly.com",
-        "api-auth.zztfly.com"
-      ],
       "domain_suffix": [
         "xhscdn.com",
         "xhscdn.net",
         "xiaohongshu.com",
+        "rednotecdn.com",
+        "rnote.com",
+        "miaozhen.com",
+        "tianwenca.com",
+        "comfylink.com",
+        "xinqiucc.com",
+        "tlivemcdn.com",
+        "qrstuvwxyzab.com",
         "zztfly.com",
         "tdnsstic1.cn",
-        "miaozhen.com",
         "fengkongcloud.com",
         "alibaba.com",
         "alimama.com",
@@ -36,7 +36,6 @@
         "kunluncan.com",
         "letneivaicai com",
         "meituan.com",
-        "miaozhen.com",
         "myqcloud.com",
         "pitravel.cn",
         "qcloudcdn.com",
