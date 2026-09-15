@@ -29,6 +29,14 @@ domain:servicewechat.com
 domain:qpic.cn
 #Duolingo
 domain:duolingo.com
+#Rednote
+keyword:xhscdn
+domain:xhscdn.com
+domain:xhscdn.net
+keyword:xiaohongshu
+domain:xiaohongshu.com
+domain:rednotecdn.com
+domain:rnote.com
 
 #Remote
 #Videos
