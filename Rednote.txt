@@ -3,15 +3,19 @@ DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-KEYWORD,xiaohongshu
 DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,rednotecdn.com
+DOMAIN-SUFFIX,rnote.com
+
+DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,tianwenca.com
+DOMAIN-SUFFIX,comfylink.com
+DOMAIN-SUFFIX,xinqiucc.com
+DOMAIN-SUFFIX,tlivemcdn.com
+DOMAIN-SUFFIX,qrstuvwxyzab.com
+
 DOMAIN-KEYWORD,zztfly
 DOMAIN-SUFFIX,zztfly.com
-DOMAIN,upc.zztfly.com
-DOMAIN,cfgc.zztfly.com
-DOMAIN,log-auth.zztfly.com
-DOMAIN,cdn-api-auth.zztfly.com
-DOMAIN,api-auth.zztfly.com
 DOMAIN-SUFFIX,tdnsstic1.cn
-DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alimama.com
@@ -32,7 +36,6 @@ DOMAIN-SUFFIX,jomodns.com
 DOMAIN-SUFFIX,kunluncan.com
 DOMAIN-SUFFIX,letneivaicai com
 DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,pitravel.cn
 DOMAIN-SUFFIX,qcloudcdn.com
