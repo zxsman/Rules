@@ -11,6 +11,9 @@ domain:anime1.pw
 domain:duolingo.cn
 domain:apps.apple.com
 domain:itunes.apple.com
+keyword:icloud
+domain:icloud.com
+domain:icloud-content.com
 domain:gstatic.com
 domain:googleapis.com
 domain:i.pki.goog
