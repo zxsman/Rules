@@ -2,6 +2,7 @@ keyword:google
 keyword:youtube
 keyword:github
 keyword:yahoo
+keyword:apple
 #Remote
 #Proxy
 full:meowtaverse.io
