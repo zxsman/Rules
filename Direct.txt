@@ -150,9 +150,9 @@ DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-KEYWORD,me.com
-#DOMAIN-KEYWORD,icloud
-#DOMAIN-SUFFIX,icloud.com
-#DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-KEYWORD,icloud
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
 #Binance
 DOMAIN-SUFFIX,pipecdn.vip
 #易名科技
