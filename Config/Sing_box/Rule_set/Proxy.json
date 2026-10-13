@@ -2,9 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "ip_cidr": [
-        "17.0.0.0/8"
-      ],
       "domain": [
         "meowtaverse.io",
         "cdn.hk01.com",
@@ -27,13 +24,9 @@
         "movieffm.net",
         "anime1.pw",
         "duolingo.cn",
-        "apple.com",
-        "appsto.re",
-        "apple-dns.net",
-        "ampaeservices.com",
-        "mzstatic.com",
-        "icloud.com",
-        "icloud-content.com",
+        "apps.apple.com",
+        "itunes.apple.com",
+        "push.apple.com",
         "gstatic.com",
         "googleapis.com",
         "i.pki.goog",
@@ -66,11 +59,6 @@
         "futustatic.com",
         "futufin.com",
         "lbkrs.com"
-      ],
-      "domain_keyword": [
-        "apple",
-        "me.com",
-        "icloud"
       ]
     }
   ]
