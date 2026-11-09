@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,hzrmzz.com
 DOMAIN-SUFFIX,nwmtfw.com
 DOMAIN-SUFFIX,ytcontent.com
 DOMAIN-SUFFIX,files.workercdn.com
+DOMAIN-SUFFIX,r2.cloudflarestorage.com
 #Alipay
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
