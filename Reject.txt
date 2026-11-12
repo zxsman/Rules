@@ -63,3 +63,5 @@ DOMAIN,2975c.v.fwmrm.net
 
 #Avira vpn
 DOMAIN,api.phantom.avira-vpn.com
+#中国移動監控
+DOMAIN-SUFFIX,fxltsbl.com
