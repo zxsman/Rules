@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,ctrmi.cn
 DOMAIN-SUFFIX,reachmax.cn
 DOMAIN-SUFFIX,ietheivaicai.com
 DOMAIN-SUFFIX,letneivaicai.com
+DOMAIN-KEYWORD,push-ads-cn
 
 DOMAIN,android.bugly.qq.com
 DOMAIN,h.trace.qq.com
