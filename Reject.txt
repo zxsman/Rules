@@ -69,3 +69,5 @@ DOMAIN-SUFFIX,fxltsbl.com
 #中国電信監控
 DOMAIN-SUFFIX,zzhc.vnet.cn
 DOMAIN-SUFFIX,typdm.tydevice.com
+#中国聯通監控
+DOMAIN-SUFFIX,dm.wo.com.cn
