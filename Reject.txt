@@ -61,6 +61,8 @@ DOMAIN,ad-g.doubleclick.net
 DOMAIN,ad.doubleclick.net
 DOMAIN,2mdn.net
 DOMAIN,2975c.v.fwmrm.net
+#OPPO
+DOMAIN-KEYWORD,allawntech
 #茄子快傳
 DOMAIN-SUFFIX,rqmob.com
 #Avira vpn
