@@ -61,7 +61,8 @@ DOMAIN,ad-g.doubleclick.net
 DOMAIN,ad.doubleclick.net
 DOMAIN,2mdn.net
 DOMAIN,2975c.v.fwmrm.net
-
+#茄子快傳
+DOMAIN-SUFFIX,rqmob.com
 #Avira vpn
 DOMAIN,api.phantom.avira-vpn.com
 #中国移動監控
