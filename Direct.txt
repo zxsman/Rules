@@ -380,6 +380,8 @@ DOMAIN-SUFFIX,aliyuncs.com
 #慢慢買
 IP-CIDR,124.70.0.0/23,no-resolve
 IP-CIDR,139.9.0.0/16,no-resolve
+#Trip
+DOMAIN-SUFFIX,tripcdn.com
 #moddb
 DOMAIN-SUFFIX,dl.dbolical.com
 
