@@ -30,6 +30,8 @@ DOMAIN-SUFFIX,pcidata.cn
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tbcache.com
+#Bark
+DOMAIN,api.day.app
 #Github
 #DOMAIN,raw.githubusercontent.com
 #IP相關
