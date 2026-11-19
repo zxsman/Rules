@@ -17,6 +17,7 @@ domain:push.apple.com
 domain:gstatic.com
 domain:googleapis.com
 domain:i.pki.goog
+domain:dl.google.com
 domain:topmediai.com
 domain:imyfone.com
 domain:ju1.cn
