@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,i.pki.goog
+DOMAIN-SUFFIX,dl.google.com
 #Topmedi AI
 DOMAIN-SUFFIX,topmediai.com
 DOMAIN-SUFFIX,imyfone.com
