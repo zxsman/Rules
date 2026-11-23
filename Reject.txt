@@ -64,9 +64,9 @@ DOMAIN,2975c.v.fwmrm.net
 #OPPO
 DOMAIN-KEYWORD,allawntech
 #1+
-DOMAIN-KEYWORD,heytapmobi.com
-DOMAIN-KEYWORD,heytapmobile.com
-DOMAIN-KEYWORD,heytapdownload.com
+DOMAIN-SUFFIX,heytapmobi.com
+DOMAIN-SUFFIX,heytapmobile.com
+DOMAIN-SUFFIX,heytapdownload.com
 #茄子快傳
 DOMAIN-SUFFIX,rqmob.com
 #Avira vpn
