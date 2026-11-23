@@ -64,6 +64,9 @@
         "app-analytics-services.com",
         "app-measurement.com",
         "branch.io",
+        "heytapmobi.com",
+        "heytapmobile.com",
+        "heytapdownload.com",
         "rqmob.com",
         "fxltsbl.com",
         "zzhc.vnet.cn",
@@ -72,10 +75,7 @@
       ],
       "domain_keyword": [
         "push-ads-cn",
-        "allawntech",
-        "heytapmobi.com",
-        "heytapmobile.com",
-        "heytapdownload.com"
+        "allawntech"
       ]
     }
   ]
