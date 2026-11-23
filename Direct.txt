@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,ytcontent.com
 DOMAIN-SUFFIX,files.workercdn.com
 DOMAIN-SUFFIX,r2.cloudflarestorage.com
 DOMAIN-SUFFIX,vdcdn.xyz
+DOMAIN-SUFFIX,snapyt.app
 #Alipay
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
