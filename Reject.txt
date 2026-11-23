@@ -64,6 +64,7 @@ DOMAIN,2975c.v.fwmrm.net
 #OPPO
 DOMAIN-KEYWORD,allawntech
 #1+
+DOMAIN-SUFFIX,coloros.com
 DOMAIN-SUFFIX,heytapmobi.com
 DOMAIN-SUFFIX,heytapmobile.com
 DOMAIN-SUFFIX,heytapdownload.com
