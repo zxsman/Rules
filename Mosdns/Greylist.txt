@@ -2,7 +2,6 @@ keyword:google
 keyword:youtube
 keyword:github
 keyword:yahoo
-keyword:apple
 domain:googletagmanager.com
 #Remote
 #Proxy
