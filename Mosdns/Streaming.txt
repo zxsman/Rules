@@ -6,6 +6,7 @@ domain:microsoft.com
 domain:windowsupdate.com
 domain:windows.com
 #Apple
+keyword:apple
 keyword:icloud
 domain:apple.com
 domain:appsto.re
