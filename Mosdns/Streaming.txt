@@ -12,6 +12,8 @@ domain:appsto.re
 domain:apple-dns.net
 domain:icloud.com
 domain:icloud-content.com
+domain:ampaeservices.com
+domain:mzstatic.com
 #Uber
 #domain:uber.com
 #Sora
