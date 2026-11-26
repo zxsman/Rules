@@ -5,6 +5,13 @@ keyword:bing
 domain:microsoft.com
 domain:windowsupdate.com
 domain:windows.com
+#Apple
+keyword:icloud
+domain:apple.com
+domain:appsto.re
+domain:apple-dns.net
+domain:icloud.com
+domain:icloud-content.com
 #Uber
 #domain:uber.com
 #Sora
