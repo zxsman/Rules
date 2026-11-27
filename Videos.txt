@@ -142,3 +142,5 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,us.sentry.io
 DOMAIN-SUFFIX,oaistatic.com
+#Gimy
+DOMAIN-SUFFIX,feifei-play.com
