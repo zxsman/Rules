@@ -104,3 +104,4 @@ domain:chatgpt.com
 domain:openai.com
 domain:us.sentry.io
 domain:oaistatic.com
+domain:feifei-play.com
