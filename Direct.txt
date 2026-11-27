@@ -36,7 +36,7 @@ DOMAIN,api.day.app
 #Github
 #DOMAIN,raw.githubusercontent.com
 #Gimy
-DOMAIN-SUFFIX,feifei-play.com
+#DOMAIN-SUFFIX,feifei-play.com
 #IP相關
 DOMAIN-SUFFIX,ipapi.co
 #得物
